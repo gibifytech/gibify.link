@@ -1,4 +1,5 @@
 import GithubIcon from "@/components/icons/github";
+import WhtasappIcon from "@/components/icons/whatsapp";
 import { Metadata } from "next";
 import Image from "next/image";
 
@@ -20,12 +21,12 @@ export default function AlexandreOfficialBrasilPage() {
         <span className='text-black'>Alexandre Brasil</span>
       </div>
       <div className="max-w-sm w-full mt-6">
-        <p>
-          Web Developer.
-          Apaixonado por desenvolver aplicações.
-        </p>
+        <ul>
+          <li>Web Developer</li>
+          <li>Apaixonado por desenvolver aplicações</li>
+        </ul>
       </div>
-      <div className="max-w-sm w-full mt-6">
+      <div className="flex flex-col gap-4 max-w-sm w-full mt-6">
         <a
           href="https://github.com/alexandre-cooper"
           target="_blank"
@@ -34,6 +35,15 @@ export default function AlexandreOfficialBrasilPage() {
         >
           <GithubIcon />
           <span className="md:text-base text-sm">Github</span>
+        </a>
+        <a
+          href="https://wa.me/5565992792383"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center gap-2 rounded-3xl border border-green-500 p-2 w-full"
+        >
+          <WhtasappIcon />
+          <span className="md:text-base text-sm">WhatsApp</span>
         </a>
       </div>
     </main>
