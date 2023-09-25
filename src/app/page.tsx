@@ -28,7 +28,7 @@ export default function Home() {
       <div className="mt-8 border-l-2 pl-4">
         <p className='text-black/60'>Fale com um dos nossos Ddesenvolvedores e cria seu link com a hospedagem, SSL e domínio totalmente grátis.</p>
         <a
-          href="https://wa.me/5565992792383"
+          href="https://wa.me/5548998463847"
           target="_blank"
           rel="noopener noreferrer"
           className="flex max-w-sm mt-4 items-center justify-center gap-2 rounded-3xl border border-green-500 p-2 w-full"
