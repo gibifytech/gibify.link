@@ -1,4 +1,5 @@
 import InstagramIcon from "@/components/icons/instagram";
+import PortraitIcon from "@/components/icons/portrait";
 import WhtasappIcon from "@/components/icons/whatsapp";
 import { Metadata } from "next";
 import Image from "next/image";
@@ -38,6 +39,15 @@ export default function VanubiaXavierPage() {
         >
           <WhtasappIcon />
           <span className="md:text-base text-sm">WhatsApp</span>
+        </a>
+        <a
+          href="https://vanubia.my.canva.site/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center gap-2 rounded-3xl text-[#8F6566] bg-[#EFD8D2] border border-[#8F6566] p-2 w-full"
+        >
+          <PortraitIcon />
+          <span className="md:text-base text-sm">Um Resumo Sobre Mim</span>
         </a>
         <a
           href="https://www.instagram.com/vanubia_xavier_/"
