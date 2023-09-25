@@ -4,7 +4,7 @@ export default function Footer() {
   const copyrightDate = 2023 + (currentYear > 2023 ? `-${currentYear}` : '');
 
   return (
-    <footer className="w-full border-t p-4 text-center">
+    <footer className="w-full border-t p-4 text-center text-black dark:text-white">
       <p> &copy; {copyrightDate} Todos os direitos reservados.</p>
       <a
         href="https://gibify.com.br"
