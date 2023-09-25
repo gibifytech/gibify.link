@@ -34,7 +34,7 @@ export default function MePage() {
           href="https://wa.me/5548998463847"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center justify-center gap-2 rounded-3xl text-white bg-green-500 border border-green-500 p-2 w-full"
+          className="flex items-center justify-center gap-2 rounded-3xl text-green-500 bg-white border border-green-500 p-2 w-full"
         >
           <WhtasappIcon />
           <span className="md:text-base text-sm">WhatsApp</span>
@@ -43,7 +43,7 @@ export default function MePage() {
           href="https://github.com/gibify"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center justify-center gap-2 rounded-3xl text-white bg-green-500 border border-green-500 p-2 w-full"
+          className="flex items-center justify-center gap-2 rounded-3xl text-green-500 bg-white border border-green-500 p-2 w-full"
         >
           <GithubIcon />
           <span className="md:text-base text-sm">Github</span>
@@ -52,10 +52,10 @@ export default function MePage() {
           href="https://gibify.dev"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center justify-center gap-2 rounded-3xl text-white bg-green-500 border border-green-500 p-2 w-full"
+          className="flex items-center justify-center gap-2 rounded-3xl text-green-500 bg-white border border-green-500 p-2 w-full"
         >
           <SparklesIcon />
-          <span className="md:text-base text-sm">Site</span>
+          <span className="md:text-base text-sm">WebSite</span>
         </a>
       </div>
     </>
