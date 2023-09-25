@@ -1,6 +1,5 @@
 import GithubIcon from "@/components/icons/github";
 import InstagramIcon from "@/components/icons/instagram";
-import TestIcon from "@/components/icons/text";
 import WhtasappIcon from "@/components/icons/whatsapp";
 import { Metadata } from "next";
 import Image from "next/image";
@@ -56,7 +55,6 @@ export default function AlexandreOfficialBrasilPage() {
           <InstagramIcon />
           <span className="md:text-base text-sm">Instagram</span>
         </a>
-        <TestIcon />
       </div>
     </main>
   )

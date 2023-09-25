@@ -1,5 +1,5 @@
 import InstagramIcon from "@/components/icons/instagram";
-import PortraitIcon from "@/components/icons/portrait";
+import SparklesIcon from "@/components/icons/sparkles";
 import WhtasappIcon from "@/components/icons/whatsapp";
 import { Metadata } from "next";
 import Image from "next/image";
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 }
 export default function VanubiaXavierPage() {
   return (
-    <main className="flex max-w-5xl w-full min-h-screen flex-col items-center justify-start p-5 mx-auto">
+    <>
       <div className='flex gap-2 items-center justify-start mt-6'>
         <Image
           className="w-[70px] h-[70px] p-1 rounded-full ring-2 ring-[#8F6566]"
@@ -46,8 +46,8 @@ export default function VanubiaXavierPage() {
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-2 rounded-3xl text-[#8F6566] bg-[#EFD8D2] border border-[#8F6566] p-2 w-full"
         >
-          <PortraitIcon />
-          <span className="md:text-base text-sm">Um Resumo Sobre Mim</span>
+          <SparklesIcon />
+          <span className="md:text-base text-sm">Sobre Mim</span>
         </a>
         <a
           href="https://www.instagram.com/vanubia_xavier_/"
@@ -59,6 +59,6 @@ export default function VanubiaXavierPage() {
           <span className="md:text-base text-sm">Instagram</span>
         </a>
       </div>
-    </main>
+    </>
   )
 } 
