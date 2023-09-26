@@ -12,7 +12,7 @@ export default function HomePage() {
           A <i>Gibify Link</i> é a ferramenta ideal para influenciadores, criadores de conteúdo, e qualquer pessoa que deseja otimizar sua presença online.
           É hora de simplificar a maneira de compartilhar seu conteúdo na internet.
           <br />
-          Junte-se a <i>Gibify Link</i> e crie seu link personalizado hoje mesmo!
+          Junte-se a <i className='font-medium'>gibify.link</i> e crie seu link personalizado hoje mesmo!
         </h3>
 
         <div className="mt-10 border-l-2 border-black/70 dark:border-white/30 pl-4">

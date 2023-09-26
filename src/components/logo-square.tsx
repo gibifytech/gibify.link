@@ -1,5 +1,6 @@
 import clsx from 'clsx';
 import LogoIcon from './icons/logo';
+import LinkIcon from './icons/link';
 
 export default function LogoSquare({ size }: { size?: 'sm' | undefined }) {
   return (
@@ -12,9 +13,7 @@ export default function LogoSquare({ size }: { size?: 'sm' | undefined }) {
         }
       )}
     >
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
-      </svg>
+      <svg aria-label="Ícone de link" className="x1lliihq x1n2onr6" fill="current" height="16" role="img" viewBox="0 0 25 25" width="16"><title>Ícone de link</title><path d="m9.726 5.123 1.228-1.228a6.47 6.47 0 0 1 9.15 9.152l-1.227 1.227m-4.603 4.603-1.228 1.228a6.47 6.47 0 0 1-9.15-9.152l1.227-1.227" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="8.471" x2="15.529" y1="15.529" y2="8.471"></line></svg>
     </div>
   );
 }
