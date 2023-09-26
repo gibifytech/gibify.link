@@ -14,11 +14,11 @@ export default function AlexandreOfficialBrasilPage() {
     <main className="flex max-w-5xl w-full min-h-screen flex-col items-center justify-start p-5 mx-auto">
       <div className='flex gap-2 items-center justify-start mt-6'>
         <Image
-          className="w-10 h-10 p-1 rounded-full ring-2 ring-green-500"
-          src="https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/361890449_183801664680630_8733781334214549013_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=uZGBv9jmoQAAX-Hs4-D&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfAcKCgVUYWbP7wOCMsz2l8SEQZKvheaRw2W1sqr8V9TOQ&oe=650F6FB1&_nc_sid=8b3546"
+          className="w-[75px] h-[75px] p-1 rounded-full ring-2 ring-green-500"
+          src="https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/361890449_183801664680630_8733781334214549013_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=yD516M80ktwAX-n0vKv&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCowH9tlrdPX7r5f0lwF2nL8yDcjqrI15Lklzig9-BN-A&oe=651758B1&_nc_sid=8b3546"
           alt="Bordered avatar"
-          width={10}
-          height={10}
+          width={75}
+          height={75}
         />
         <span className='text-black dark:text-white md:text-lg text-base'>Alexandre Brasil</span>
       </div>

@@ -5,7 +5,7 @@ export default function PortraitIcon(props: React.ComponentProps<'svg'>) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      aria-label={`${process.env.SITE_NAME} Instagram`}
+      aria-label={`Portrait`}
       viewBox="0 0 25 25"
       {...props}
       className={clsx('h-5 w-5 fill-current', props.className)}
