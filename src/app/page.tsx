@@ -1,13 +1,4 @@
 import WhtasappIcon from '@/components/icons/whatsapp'
-import { Metadata } from 'next'
-
-export const metadata: Metadata = {
-  title: 'Gibify Link',
-  description: 'Simplificando a maneira de como você compartilha seus links na internet.',
-  verification: {
-    google: 'NZ-zRsj3eU2EdmeG8llgzrBIHSozkP7W9illfOmVr0M'
-  }
-}
 
 export default function HomePage() {
   return (
@@ -16,13 +7,14 @@ export default function HomePage() {
         Simplificando a maneira de compartilhar seus links na internet.
       </h1>
       <h3 className='md:text-xl text-lg text-black/70 dark:text-white/70 mt-10'>
-        O <i>Gibify Link</i> é a ferramenta ideal para influenciadores, criadores de conteúdo, e qualquer pessoa que deseja otimizar sua presença online.
+        A <i>Gibify Link</i> é a ferramenta ideal para influenciadores, criadores de conteúdo, e qualquer pessoa que deseja otimizar sua presença online.
         É hora de simplificar a maneira de compartilhar seu conteúdo na internet.
+        <br />
         Junte-se a <i>Gibify Link</i> e crie seu link personalizado hoje mesmo!
       </h3>
 
       <div className="mt-10 border-l-2 border-black/70 dark:border-white/30 pl-4">
-        <p className='text-black/70 dark:text-white/30'>Fale com um dos nossos Ddesenvolvedores e crie seu link personalizado.</p>
+        <p className='text-black/70 dark:text-white/30'>Fale com um dos nossos Desenvolvedores e crie seu link personalizado.</p>
         <a
           href="https://wa.me/5548998463847"
           target="_blank"
