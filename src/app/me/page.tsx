@@ -5,8 +5,9 @@ import SparklesIcon from '@/components/icons/sparkles'
 import WhtasappIcon from '@/components/icons/whatsapp'
 
 export const metadata: Metadata = {
-  title: 'Gibify Link | Evandro Gibicoski',
-  description: 'Simplificando a maneira de compartilhar seus links na internet.',
+  title: 'Evandro Gibicoski | Web Developer',
+  description: 'Next.js, React.js, Javascript, Typescript, CSS e HTML',
+  assets: 'https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/339312817_1385531305557881_1955479138216635658_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=ZJw_HRajS6UAX-N7ZrU&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfBrxy7cVYjJWEPudWLm68AVuH6ZFAtv_0183gdBsyLO-Q&oe=651612AC&_nc_sid=8b3546"'
 }
 export default function MePage() {
   return (
