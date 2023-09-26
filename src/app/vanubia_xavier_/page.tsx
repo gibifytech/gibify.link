@@ -7,7 +7,7 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: 'Vanubia Xavier | Cabeleireira',
   description: 'Transformando você na sua melhor versão',
-  assets: 'https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/296612066_623545722520792_3226160538313054067_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=ZbmaS8A2P1QAX_ClswH&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AfBNcAsvBBqfIaaUcIwh0zZSLC3sVjWxQ3oYkoqtKTt5vQ&oe=65164795&_nc_sid=ee9879'
+  assets: '/vanubia_avatar.svg'
 }
 export default function VanubiaXavierPage() {
   return (

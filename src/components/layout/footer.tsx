@@ -12,7 +12,7 @@ export default function Footer() {
           href="https://gibify.com.br"
           className="font-semibold"
         >
-          Gibify -  Marketing e Technologia
+          Gibify -  Marketing e Tecnologia
         </a>
       </p>
     </footer>
