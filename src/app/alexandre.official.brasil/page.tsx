@@ -32,7 +32,7 @@ export default function AlexandreOfficialBrasilPage() {
           <li>💚 Apaixonado por códigos.</li>
         </ul>
       </div>
-      <div className="flex flex-col gap-4 max-w-sm w-full mt-6 text-sx uppercase">
+      <div className="flex flex-col gap-4 max-w-sm w-full mt-6 text-xs uppercase">
         <a
           href="https://github.com/alexandre-cooper"
           target="_blank"
@@ -40,7 +40,7 @@ export default function AlexandreOfficialBrasilPage() {
           className="flex items-center justify-center gap-2 rounded-3xl text-white bg-green-500 border border-green-500 p-2 w-full"
         >
           <GithubIcon />
-          <span className="">Github</span>
+          <span >Github</span>
         </a>
         <a
           href="https://www.linkedin.com/in/alexandre-brasil-dos-santos"
@@ -49,7 +49,7 @@ export default function AlexandreOfficialBrasilPage() {
           className="flex items-center justify-center gap-2 rounded-3xl text-white bg-green-500 border border-green-500 p-2 w-full"
         >
           <LinkedInIcon />
-          <span className="">LinkedIn</span>
+          <span>LinkedIn</span>
         </a>
         <a
           href="https://wa.me/5565992792383"
@@ -58,7 +58,7 @@ export default function AlexandreOfficialBrasilPage() {
           className="flex items-center justify-center gap-2 rounded-3xl text-white bg-green-500 border border-green-500 p-2 w-full"
         >
           <WhtasappIcon />
-          <span className="md:text-base text-sm">WhatsApp</span>
+          <span >WhatsApp</span>
         </a>
         <a
           href="https://www.instagram.com/alexandre.official.brasil/"
@@ -67,7 +67,7 @@ export default function AlexandreOfficialBrasilPage() {
           className="flex items-center justify-center gap-2 rounded-3xl text-white bg-green-500 border border-green-500 p-2 w-full"
         >
           <InstagramIcon />
-          <span className="md:text-base text-sm">Instagram</span>
+          <span >Instagram</span>
         </a>
       </div>
     </main>
