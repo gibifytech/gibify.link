@@ -1,3 +1,4 @@
+
 import './globals.css'
 import Footer from '@/components/layout/footer'
 import Header from '@/components/layout/header';
@@ -13,6 +14,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Gibify Link',
   description: 'Simplificando a maneira de como você compartilha seus links na internet.',
+  verification: {
+    google: 'NZ-zRsj3eU2EdmeG8llgzrBIHSozkP7W9illfOmVr0M'
+  }
 }
 
 export default function RootLayout({
