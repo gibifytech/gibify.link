@@ -18,7 +18,7 @@ export default function HomePage() {
         <div className="mt-10 border-l-2 border-black/70 dark:border-white/30 pl-4">
           <p className='text-black/70 dark:text-white/30'>Fale com um dos nossos consultores e crie seu link personalizado.</p>
           <a
-            href="https://wa.me/5548998463847"
+            href="https://wa.me/5565993562754?text=Tenho%20interesse%20pelo%20link%20na%20bio%20no%20Instagram."
             target="_blank"
             rel="noopener noreferrer"
             className="flex max-w-sm mt-4 items-center text-green-500 justify-center gap-2 rounded-3xl border border-green-500 p-2 w-full"
