@@ -1,12 +1,13 @@
 import GithubIcon from "@/components/icons/github";
 import InstagramIcon from "@/components/icons/instagram";
+import LinkedInIcon from "@/components/icons/linkedin";
 import WhtasappIcon from "@/components/icons/whatsapp";
 import { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: 'Gibify Link | Alexandre Brasil',
-  description: 'Simplificando a maneira de compartilhar seus links na internet.',
+  title: 'Alexandre Brasil | Web Developer',
+  description: 'Apaixonado pelas linhas de códigos',
 }
 export default function AlexandreOfficialBrasilPage() {
   return (
@@ -22,12 +23,16 @@ export default function AlexandreOfficialBrasilPage() {
         <span className='text-black dark:text-white md:text-lg text-base'>Alexandre Brasil</span>
       </div>
       <div className="max-w-sm w-full mt-6 my-4">
-        <ul>
+        <ul className="flex flex-col gap-2">
+          <li>
+            Qualquer um pode escrever um código que o computador entenda.
+            Bons programadores escrevem códigos que humanos entendam.
+          </li>
           <li>💻 Web Developer</li>
           <li>💚 Apaixonado por códigos.</li>
         </ul>
       </div>
-      <div className="flex flex-col gap-4 max-w-sm w-full mt-6 md:text-base text-sm">
+      <div className="flex flex-col gap-4 max-w-sm w-full mt-6 text-sx uppercase">
         <a
           href="https://github.com/alexandre-cooper"
           target="_blank"
@@ -36,6 +41,15 @@ export default function AlexandreOfficialBrasilPage() {
         >
           <GithubIcon />
           <span className="">Github</span>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/alexandre-brasil-dos-santos"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center gap-2 rounded-3xl text-white bg-green-500 border border-green-500 p-2 w-full"
+        >
+          <LinkedInIcon />
+          <span className="">LinkedIn</span>
         </a>
         <a
           href="https://wa.me/5565992792383"

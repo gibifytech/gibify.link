@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export const metadata: Metadata = {
   title: 'Vanubia Xavier | Cabeleireira',
-  description: 'Transformando você na sua melhor versão',
+  description: 'Transformando você na sua melhor versão.',
 }
 export default function VanubiaXavierPage() {
   return (
