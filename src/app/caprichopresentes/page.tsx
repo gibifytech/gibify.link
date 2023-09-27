@@ -22,7 +22,7 @@ export default function CaprichoPresentesPage() {
       </div>
       <div className="max-w-sm w-full mt-6 my-4 md:p-0 px-4">
         <ul>
-          <li>Capricho | Presentes & Utilidades</li>
+          <li>Capricho Presentes & Utilidades</li>
           <li>
             As melhores opções em presentes e utilidades.
           </li>
