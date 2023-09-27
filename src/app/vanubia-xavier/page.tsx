@@ -41,15 +41,6 @@ export default function VanubiaXavierPage() {
           <span className="md:text-base text-sm">WhatsApp</span>
         </a>
         <a
-          href="https://vanubia.my.canva.site/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center justify-center gap-2 rounded-3xl text-[#8F6566] bg-[#EFD8D2] border border-[#8F6566] p-2 w-full"
-        >
-          <SparklesIcon />
-          <span className="md:text-base text-sm">Sobre Mim</span>
-        </a>
-        <a
           href="https://www.instagram.com/vanubia_xavier_/"
           target="_blank"
           rel="noopener noreferrer"
@@ -57,6 +48,15 @@ export default function VanubiaXavierPage() {
         >
           <InstagramIcon />
           <span className="md:text-base text-sm">Instagram</span>
+        </a>
+        <a
+          href="https://gibify.app/vanubia-xavier"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center gap-2 rounded-3xl text-[#8F6566] bg-[#EFD8D2] border border-[#8F6566] p-2 w-full"
+        >
+          <SparklesIcon />
+          <span className="md:text-base text-sm">Sobre Mim</span>
         </a>
       </div>
     </>
