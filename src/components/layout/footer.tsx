@@ -6,10 +6,10 @@ export default function Footer() {
 
   return (
     <footer className="w-full flex flex-col items-center justify-center border-t border-neutral-200 dark:border-neutral-700 p-4 text-center text-black dark:text-white">
-      <div className="mb-5">
+      <ThemeSwitcher />
+      <div className="mt-5">
         <p> &copy; {copyrightDate} Todos os direitos reservados.</p>
         <p>
-          App Desenvolvido pela <br />
           <a
             href="https://gibify.com.br"
             className="font-semibold"
@@ -18,7 +18,6 @@ export default function Footer() {
           </a>
         </p>
       </div>
-      <ThemeSwitcher />
     </footer>
   )
 }
