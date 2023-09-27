@@ -1,4 +1,4 @@
-import { Carousel } from '@/components/carousel'
+import Carousel from '@/components/carousel'
 import WhtasappIcon from '@/components/icons/whatsapp'
 
 export default function HomePage() {

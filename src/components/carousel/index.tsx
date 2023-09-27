@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { users } from '../../JSON/user.json'
 
-export async function Carousel() {
+export default function Carousel() {
   const data = [...users, ...users, ...users]
   return (
     <div className="w-full  items-center pb-6 pt-1 mt-10 px-10">

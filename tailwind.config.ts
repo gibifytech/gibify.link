@@ -47,8 +47,25 @@ const config = {
       }
     },
   },
+  future: {
+    hoverOnlyWhenSupported: true
+  },
   plugins: [
     require('@tailwindcss/container-queries'),
+    plugin(({ matchUtilities, theme }: any) => {
+      matchUtilities(
+        {
+          'animation-delay': (value: any) => {
+            return {
+              'animation-delay': value
+            };
+          }
+        },
+        {
+          values: theme('transitionDelay')
+        }
+      );
+    })
   ],
 }
 export default config
