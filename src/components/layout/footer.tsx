@@ -1,20 +1,24 @@
+import { ThemeSwitcher } from "../ThemeSwitcher";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
   const copyrightDate = 2023 + (currentYear > 2023 ? `-${currentYear}` : '');
 
   return (
-    <footer className="w-full border-t border-neutral-200 dark:border-neutral-700 p-4 text-center text-black dark:text-white">
-      <p> &copy; {copyrightDate} Todos os direitos reservados.</p>
-      <p>
-        App Desenvolvido pela <br />
-        <a
-          href="https://gibify.com.br"
-          className="font-semibold"
-        >
-          Gibify -  Marketing e Tecnologia
-        </a>
-      </p>
+    <footer className="w-full flex flex-col items-center justify-center border-t border-neutral-200 dark:border-neutral-700 p-4 text-center text-black dark:text-white">
+      <div className="mb-5">
+        <p> &copy; {copyrightDate} Todos os direitos reservados.</p>
+        <p>
+          App Desenvolvido pela <br />
+          <a
+            href="https://gibify.com.br"
+            className="font-semibold"
+          >
+            Gibify -  Marketing e Tecnologia
+          </a>
+        </p>
+      </div>
+      <ThemeSwitcher />
     </footer>
   )
 }
