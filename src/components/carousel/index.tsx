@@ -6,6 +6,7 @@ export default function Carousel() {
   const data = [...users, ...users, ...users]
   return (
     <div className="w-full  items-center pb-6 pt-1 mt-10 px-10">
+      <h2 className="max-w-5xl mx-auto my-10 text-xl font-semibold">Pessoas que estão usando a <i className="text-green-500">gibify.link</i></h2>
       <ul className="flex animate-carousel gap-4">
         {users.length ? (
           data.map((user) => (
