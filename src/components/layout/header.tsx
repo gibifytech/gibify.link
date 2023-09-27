@@ -1,7 +1,6 @@
 "use client"
 import { usePathname } from "next/navigation";
 import LogoSquare from "../logo-square";
-import { ThemeSwitcher } from "../ThemeSwitcher";
 
 export default function Header() {
   const pathname = usePathname();
@@ -16,7 +15,6 @@ export default function Header() {
             <LogoSquare size='sm' />
             gibify<span className="text-green-500">.link</span>
           </div>
-          <ThemeSwitcher />
         </header>
       )}
     </>
