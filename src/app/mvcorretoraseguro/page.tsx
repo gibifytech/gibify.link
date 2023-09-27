@@ -5,8 +5,8 @@ import { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: 'MV Corretora de Seguro',
-  description: 'Corretora de seguros e assessoria.',
+  title: 'MV Corretora de Seguros e Assessoria',
+  description: 'Corretora de Seguro e Assessoria.',
 }
 export default function MVCorretoraSeguroPage() {
   return (
@@ -19,12 +19,12 @@ export default function MVCorretoraSeguroPage() {
           width={75}
           height={75}
         />
-        <span className='text-black dark:text-white md:text-lg text-base'>MV corretora Seg e ass</span>
+        <span className='text-black dark:text-white md:text-lg text-base'>MV Corretora de Seguros e Assessoria</span>
       </div>
       <div className="max-w-sm w-full mt-6 my-4 md:p-0 px-4">
         <ul>
           <li>
-            Corretora de seguros e assessoria
+            Queremos que você se sinta seguro ao contar conosco para protejer seu patrimônio e seu futuro.
           </li>
         </ul>
       </div>
