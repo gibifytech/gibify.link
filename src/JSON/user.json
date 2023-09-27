@@ -17,6 +17,14 @@
       "path": "caseirinhoslrv"
     },
     {
+      "id": "03",
+      "name": "Gibify",
+      "title": "Marketing e Tecnologia",
+      "description": "Transformando idéias em sucesso online.",
+      "image_url": "https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/384081426_342658424832184_6414952961385406642_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=2fFejtcKydkAX8aZiqQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfDacNLdmAqcJ41WvUntsL9Frn6X_Rmk2lQ6eV2p1aBh-g&oe=65190238&_nc_sid=8b3546",
+      "path": "mktech"
+    },
+    {
       "id": "99",
       "name": "Alexandre Brasil",
       "title": "Web Developer",
@@ -30,7 +38,7 @@
       "title": "Web Developer",
       "description": "Apaixonado por códigos, café e viagens.",
       "image_url": "https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/339312817_1385531305557881_1955479138216635658_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=ZJw_HRajS6UAX-N7ZrU&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfBrxy7cVYjJWEPudWLm68AVuH6ZFAtv_0183gdBsyLO-Q&oe=651612AC&_nc_sid=8b3546",
-      "path": "me"
+      "path": "evandro-gibicoski"
     }
   ]
 }
