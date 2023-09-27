@@ -30,7 +30,7 @@ export default function MVCorretoraSeguroPage() {
       </div>
       <div className="flex flex-col gap-4 max-w-sm w-full mt-6 text-xs uppercase md:p-0 px-4">
         <a
-          href="https://wa.me/5565999897427"
+          href="https://wa.me/5565999527698"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-2 rounded-3xl font-medium text-[#D7B440] bg-black border border-[#D7B440] p-2 w-full"
@@ -39,7 +39,7 @@ export default function MVCorretoraSeguroPage() {
           <span >WhatsApp</span>
         </a>
         <a
-          href="https://www.instagram.com/ciadoscelularepresentes/"
+          href="https://www.instagram.com/mvcorretoraseguro/"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-2 rounded-3xl font-medium text-[#D7B440] bg-black border border-[#D7B440] p-2 w-full"
