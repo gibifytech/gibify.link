@@ -9,8 +9,6 @@ export default function NotFound() {
       </p>
       <Link
         href="/"
-        target="_blank"
-        rel="noopener noreferrer"
         className="mx-auto mt-4 flex w-full items-center justify-center rounded-full border border-black p-4 tracking-wide text-black hover:opacity-90"
       >
         Acessar a Home
