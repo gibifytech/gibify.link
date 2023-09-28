@@ -5,6 +5,7 @@ import Header from '@/components/layout/header';
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { ThemeProvider } from './theme-provider';
+import Link from 'next/link';
 
 const inter = Inter({
   subsets: ['latin'],
