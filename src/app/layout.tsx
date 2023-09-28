@@ -1,12 +1,11 @@
 
 import './globals.css'
 import Footer from '@/components/layout/footer'
+import Script from 'next/script';
 import Header from '@/components/layout/header';
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { ThemeProvider } from './theme-provider';
-import Link from 'next/link';
-import Script from 'next/script';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -50,6 +49,25 @@ export default function RootLayout({
                   `,
         }}
       />
+      <Script
+        strategy="afterInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=G-M8T9KRLCWR`}
+      />
+      <Script
+        id="gtag-init"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+                      window.dataLayer = window.dataLayer || [];
+                      function gtag(){dataLayer.push(arguments);}
+                      gtag('js', new Date());
+                      gtag('config', 'G-M8T9KRLCWR', {
+                      page_path: window.location.pathname,
+                      });
+                    `,
+        }}
+      />
+
       <body>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Header />
