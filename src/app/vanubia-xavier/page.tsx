@@ -30,7 +30,7 @@ export default function VanubiaXavierPage() {
           </li>
         </ul>
       </div>
-      <div className="flex flex-col gap-4 max-w-sm w-full mt-6 md:text-base text-sm">
+      <div className="flex flex-col gap-4 max-w-sm w-full mt-6 text-sx uppercase">
         <a
           href="https://wa.me/5565992700066"
           target="_blank"
@@ -38,7 +38,7 @@ export default function VanubiaXavierPage() {
           className="flex items-center justify-center gap-2 rounded-3xl text-[#8F6566] bg-[#EFD8D2] border border-[#8F6566] p-2 w-full"
         >
           <WhtasappIcon />
-          <span className="md:text-base text-sm">WhatsApp</span>
+          <span>WhatsApp</span>
         </a>
         <a
           href="https://www.instagram.com/vanubia_xavier_/"
@@ -47,7 +47,7 @@ export default function VanubiaXavierPage() {
           className="flex items-center justify-center gap-2 rounded-3xl text-[#8F6566] bg-[#EFD8D2] border border-[#8F6566] p-2 w-full"
         >
           <InstagramIcon />
-          <span className="md:text-base text-sm">Instagram</span>
+          <span>Instagram</span>
         </a>
         <a
           href="https://gibify.app/vanubia-xavier"
@@ -56,7 +56,7 @@ export default function VanubiaXavierPage() {
           className="flex items-center justify-center gap-2 rounded-3xl text-[#8F6566] bg-[#EFD8D2] border border-[#8F6566] p-2 w-full"
         >
           <SparklesIcon />
-          <span className="md:text-base text-sm">Sobre Mim</span>
+          <span>Sobre Mim</span>
         </a>
       </div>
     </>
