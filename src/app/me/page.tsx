@@ -30,7 +30,7 @@ export default function MePage() {
           </li>
         </ul>
       </div>
-      <div className="flex flex-col gap-4 max-w-sm w-full text-sx uppercase px-4 md:p-0">
+      <div className="flex flex-col gap-4 max-w-sm w-full text-xs uppercase px-4 md:p-0">
         <a
           href="https://wa.me/5548998463847"
           target="_blank"
