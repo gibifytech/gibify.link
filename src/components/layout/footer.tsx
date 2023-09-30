@@ -14,13 +14,12 @@ export default function Footer() {
       </div>
 
       <div className="mt-5">
-        <p> &copy; {copyrightDate} Todos os direitos reservados.</p>
         <div className='flex items-center justify-center text-sm font-medium uppercase gap-2 my-4'>
           <LogoSquare size='sm' />
           <a href="https://gibify.link">gibify<span className="text-green-500"> .link</span></a>
         </div>
-
-        <p className="mb-4">
+        <p> &copy; {copyrightDate} Todos os direitos reservados.</p>
+        <p className="mb-4 mt-2">
           <a
             href="https://gibify.com.br"
             className="font-semibold"

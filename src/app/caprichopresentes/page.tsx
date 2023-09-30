@@ -10,17 +10,17 @@ export const metadata: Metadata = {
 export default function CaprichoPresentesPage() {
   return (
     <>
-      <div className='flex gap-2 items-center justify-center mt-6 w-full h-[100px] md:p-0 px-4'>
+      <div className='flex md:flex-row flex-col gap-4 items-center justify-center mt-8  w-full'>
         <Image
-          className="w-[75px] h-[75px] p-1 rounded-full ring-2 ring-[#00789A]"
+          className="w-20 h-20 p-1 rounded-full ring-2 ring-[#00789A]"
           src="https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/377312980_269332032614887_877906114347032228_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=8pjz1T6L44oAX9M9g2o&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfBHmDBV7NdmdIgt4r6dEK9SB3XkBvo52HWM9KxdHwDkMw&oe=651A2531&_nc_sid=8b3546"
           alt="Bordered avatar"
           width={75}
           height={75}
         />
-        <span className='text-black dark:text-white md:text-lg text-base'>Capricho Presentes</span>
+        <span className='text-black dark:text-white text-xl'>Capricho Presentes</span>
       </div>
-      <div className="max-w-sm w-full mt-6 my-4 md:p-0 px-4">
+      <div className="max-w-sm w-full my-8 px-4 md:p-0">
         <ul>
           <li>Capricho Presentes & Utilidades</li>
           <li>
@@ -28,7 +28,7 @@ export default function CaprichoPresentesPage() {
           </li>
         </ul>
       </div>
-      <div className="flex flex-col gap-4 max-w-sm w-full mt-6 text-xs uppercase md:p-0 px-4">
+      <div className="flex flex-col gap-4 max-w-sm w-full text-xs uppercase px-4 md:p-0">
         <a
           href="https://wa.me/5565981715855"
           target="_blank"

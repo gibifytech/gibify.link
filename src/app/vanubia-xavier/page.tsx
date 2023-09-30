@@ -19,7 +19,7 @@ export default function VanubiaXavierPage() {
           width={80}
           height={80}
         />
-        <span className='text-black dark:text-white md:text-lg text-base'>Vanubia Xavier</span>
+        <span className='text-black dark:text-white text-xl'>Vanubia Xavier</span>
       </div>
       <div className="max-w-sm w-full my-8 px-4 md:p-0">
         <ul>

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function MePage() {
   return (
     <>
-      <div className='flex md:flex-row flex-col gap-4 items-center justify-center mt-8  w-full'>
+      <div className='flex md:flex-row flex-col gap-4 items-center justify-center mt-8 w-full'>
         <Image
           className="w-20 h-20 p-1 rounded-full ring-2 ring-green-500"
           src="https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/339312817_1385531305557881_1955479138216635658_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=ZJw_HRajS6UAX-N7ZrU&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfBrxy7cVYjJWEPudWLm68AVuH6ZFAtv_0183gdBsyLO-Q&oe=651612AC&_nc_sid=8b3546"
