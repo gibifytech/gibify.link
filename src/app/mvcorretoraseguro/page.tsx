@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export const metadata: Metadata = {
   title: 'MV Corretora de Seguros e Assessoria',
-  description: 'Corretora de Seguro e Assessoria.',
+  description: 'Protejendo o seu patrimônio e seu futuro.',
 }
 export default function MVCorretoraSeguroPage() {
   return (
