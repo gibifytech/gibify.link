@@ -17,6 +17,7 @@ export default function CaprichoPresentesPage() {
           alt="Bordered avatar"
           width={75}
           height={75}
+          priority
         />
         <span className='text-black dark:text-white text-xl'>Capricho Presentes</span>
       </div>

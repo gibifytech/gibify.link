@@ -17,6 +17,7 @@ export default function CaseirinhosLRVPage() {
           alt="Bordered avatar"
           width={80}
           height={80}
+          priority
         />
         <span className='text-black dark:text-white text-xl'>Caseirinhos</span>
       </div>

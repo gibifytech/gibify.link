@@ -18,6 +18,7 @@ export default function MVCorretoraSeguroPage() {
           alt="Bordered avatar"
           width={80}
           height={80}
+          priority
         />
         <span className='text-black dark:text-white text-xl'>MV Corretora de Seguros e Assessoria</span>
       </div>

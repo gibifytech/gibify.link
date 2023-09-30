@@ -15,8 +15,9 @@ export default function CiaCelularesPresentesPage() {
           className="w-20 h-20 p-1 rounded-full ring-2 ring-black"
           src="https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/377572741_145015205343548_4144750756960278547_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=v-MjcrylPDsAX-AGDCY&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfBaAVk_vQpRpXP-XaBLiLnt1aOspe9oXU4XxQcNpfnmuA&oe=6518B47F&_nc_sid=8b3546"
           alt="Bordered avatar"
-          width={75}
-          height={75}
+          width={80}
+          height={80}
+          priority
         />
         <span className='text-black dark:text-white text-xl'>Cia dos Celulares e Presentes</span>
       </div>

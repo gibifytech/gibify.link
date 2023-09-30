@@ -18,6 +18,7 @@ export default function MktechPage() {
           alt="Bordered avatar"
           width={80}
           height={80}
+          priority
         />
         <span className='text-black dark:text-white text-xl'>Gibify Marketing Tecnologia</span>
       </div>
