@@ -1,9 +1,11 @@
 'use client'
+import { usePathname } from "next/navigation"
 
 export default function Share() {
+  const pathname = usePathname();
   return (
     <a
-      href={`https://api.whatsapp.com/send?text=${encodeURIComponent(window.location.href)}`}
+      href={`https://api.whatsapp.com/send?text=${encodeURIComponent(`https://gibify.link/${pathname}`)}`}
       target="_blank"
       rel="noopener noreferrer"
       className={`h-[32px] w-[32px] flex items-center justify-center rounded-md hover:scale-110 active:scale-100 duration-200 bg-slate-200 dark:bg-[#212933]`}
