@@ -12,7 +12,7 @@ export default function MeyqscilainePage() {
     <>
       <div className='flex md:flex-row flex-col gap-4 items-center justify-center mt-8  w-full'>
         <Image
-          className="w-20 h-20 p-1 rounded-full ring-2 ring-[#8F6566]"
+          className="w-20 h-20 p-1 rounded-full ring-2 ring-purple-500"
           src="/images/meyqscilaine_image.png"
           alt="Bordered avatar"
           width={80}
@@ -35,7 +35,7 @@ export default function MeyqscilainePage() {
           href="https://wa.me/5565993562754"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center justify-center gap-2 rounded-3xl text-[#8F6566] bg-[#EFD8D2] border border-[#8F6566] p-2 w-full"
+          className="flex items-center justify-center gap-2 rounded-3xl text-white bg-purple-500 border border-purple-500 p-2 w-full"
         >
           <WhtasappIcon />
           <span>WhatsApp</span>
@@ -44,7 +44,7 @@ export default function MeyqscilainePage() {
           href="https://www.instagram.com/meyqscilaine_/"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center justify-center gap-2 rounded-3xl text-[#8F6566] bg-[#EFD8D2] border border-[#8F6566] p-2 w-full"
+          className="flex items-center justify-center gap-2 rounded-3xl text-white bg-purple-500 border  border-purple-500 p-2 w-full"
         >
           <InstagramIcon />
           <span>Instagram</span>
