@@ -36,7 +36,7 @@ export default function MVCorretoraSeguroPage() {
           className="flex items-center justify-center gap-2 rounded-3xl font-medium text-[#D7B440] bg-black border border-[#D7B440] p-2 w-full"
         >
           <WhtasappIcon />
-          <span >Contato 1</span>
+          <span >Marcia</span>
         </a>
         <a
           href="https://wa.me/5565996705346"
@@ -45,7 +45,7 @@ export default function MVCorretoraSeguroPage() {
           className="flex items-center justify-center gap-2 rounded-3xl font-medium text-[#D7B440] bg-black border border-[#D7B440] p-2 w-full"
         >
           <WhtasappIcon />
-          <span >Contato 2</span>
+          <span >Vanderlei</span>
         </a>
         <a
           href="https://www.instagram.com/mvcorretoraseguro/"
