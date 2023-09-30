@@ -18,6 +18,7 @@ export default function VanubiaXavierPage() {
           alt="Bordered avatar"
           width={80}
           height={80}
+          priority
         />
         <span className='text-black dark:text-white text-xl'>Vanubia Xavier</span>
       </div>
