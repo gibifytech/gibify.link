@@ -1,6 +1,20 @@
 import Carousel from '@/components/carousel'
 import WhtasappIcon from '@/components/icons/whatsapp'
 
+export const metadata = {
+  metadataBase: new URL('https://gibify.link'),
+  alternates: {
+    canonical: '/',
+    languages: {
+      'pt-BR': '/pt-BR',
+      'en-US': '/en-US',
+    },
+  },
+  openGraph: {
+    images: '/og-image.png',
+  },
+}
+
 export default function HomePage() {
   return (
     <>
