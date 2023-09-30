@@ -10,15 +10,14 @@ export const metadata: Metadata = {
 export default function MeyqscilainePage() {
   return (
     <>
-      <div className='flex md:flex-row flex-col gap-4 items-center justify-center mt-8  w-full h-[100px]'>
+      <div className='flex md:flex-row flex-col gap-4 items-center justify-center mt-8  w-full'>
         <Image
-          className="w-[75px] h-[75px] p-1 rounded-full ring-2 ring-[#8F6566]"
+          className="w-20 h-20 p-1 rounded-full ring-2 ring-[#8F6566]"
           src="/images/meyqscilaine_image.png"
           alt="Bordered avatar"
-          width={75}
-          height={75}
+          width={80}
+          height={80}
           priority
-          objectFit="cover"
         />
         <span className='text-black dark:text-white text-xl'>Meyqscilaine Gonçalves</span>
       </div>
