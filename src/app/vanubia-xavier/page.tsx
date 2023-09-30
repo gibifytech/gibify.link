@@ -11,17 +11,17 @@ export const metadata: Metadata = {
 export default function VanubiaXavierPage() {
   return (
     <>
-      <div className='flex gap-2 items-center justify-center mt-6 w-full h-[100px]'>
+      <div className='flex md:flex-row flex-col gap-4 items-center justify-center mt-8  w-full'>
         <Image
-          className="w-[75px] h-[75px] p-1 rounded-full ring-2 ring-[#8F6566]"
+          className="w-20 h-20 p-1 rounded-full ring-2 ring-[#8F6566]"
           src="https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/296612066_623545722520792_3226160538313054067_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=ZbmaS8A2P1QAX_ClswH&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AfBNcAsvBBqfIaaUcIwh0zZSLC3sVjWxQ3oYkoqtKTt5vQ&oe=65164795&_nc_sid=ee9879"
           alt="Bordered avatar"
-          width={75}
-          height={75}
+          width={80}
+          height={80}
         />
         <span className='text-black dark:text-white md:text-lg text-base'>Vanubia Xavier</span>
       </div>
-      <div className="max-w-sm w-full mt-6 my-4">
+      <div className="max-w-sm w-full my-8 px-4 md:p-0">
         <ul>
           <li>
             Esteticista apaixonada pela área capilar!
@@ -30,7 +30,7 @@ export default function VanubiaXavierPage() {
           </li>
         </ul>
       </div>
-      <div className="flex flex-col gap-4 max-w-sm w-full mt-6 text-sx uppercase">
+      <div className="flex flex-col gap-4 max-w-sm w-full text-sx uppercase px-4 md:p-0">
         <a
           href="https://wa.me/5565992700066"
           target="_blank"
