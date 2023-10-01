@@ -1,5 +1,5 @@
 {
-  "users": [
+  "data": [
     {
       "id": "01",
       "name": "Vanúbia Xavier",
@@ -61,7 +61,7 @@
       "name": "Meyqscilaine Gonçalves",
       "title": "Marketing e Tecnologia",
       "description": "Social media apaixonada em criar e planejar conteúdos que gerem resultados.",
-      "image_url": "https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/361890449_183801664680630_8733781334214549013_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=yD516M80ktwAX-n0vKv&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCowH9tlrdPX7r5f0lwF2nL8yDcjqrI15Lklzig9-BN-A&oe=651758B1&_nc_sid=8b3546",
+      "image_url": "/images/meyqscilaine_image.png",
       "path": "meyqscilaine"
     },
     {

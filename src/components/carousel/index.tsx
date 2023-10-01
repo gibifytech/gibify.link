@@ -1,15 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
-import { users } from '../../JSON/user.json'
+import json from '../../JSON/user.json'
 
 export default function Carousel() {
-  const data = [...users, ...users, ...users]
+  const users = [...json.data, ...json.data, ...json.data]
   return (
     <div className="w-full  items-center pb-6 pt-1 mt-10 px-10">
       <h2 className="max-w-5xl mx-auto my-10 text-xl font-semibold">Contas que estão usando a <i className="text-green-500">gibify.link</i></h2>
       <ul className="flex animate-carousel gap-4">
-        {data.length ? (
-          data.map((user) => (
+        {users.length ? (
+          users.map((user) => (
             <Link
               key={user.id}
               href={`https://gibify.link/${user.path}`}
