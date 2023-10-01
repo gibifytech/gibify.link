@@ -1,16 +1,16 @@
-import Image from "next/image";
-import InstagramIcon from "@/components/icons/instagram";
-import WhtasappIcon from "@/components/icons/whatsapp";
-import { Metadata } from "next";
+import Image from 'next/image'
+import InstagramIcon from '@/components/icons/instagram'
+import WhtasappIcon from '@/components/icons/whatsapp'
+import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Meyqscilaine Gonçalves | Tecnologia do marketing',
-  description: 'Social media apaixonada em criar e planejar conteúdos que gerem resultados.',
+  description: 'Social media apaixonada em criar e planejar conteúdos que gerem resultados.'
 }
 export default function MeyqscilainePage() {
   return (
     <>
-      <div className='flex md:flex-row flex-col gap-4 items-center justify-center mt-8  w-full'>
+      <div className="flex md:flex-row flex-col gap-4 items-center justify-center mt-8  w-full">
         <Image
           className="w-20 h-20 p-1 rounded-full ring-2 ring-purple-500"
           src="/images/meyqscilaine_image.png"
@@ -19,7 +19,7 @@ export default function MeyqscilainePage() {
           height={80}
           priority
         />
-        <span className='text-black dark:text-white text-xl'>Meyqscilaine Gonçalves</span>
+        <span className="text-black dark:text-white text-xl">Meyqscilaine Gonçalves</span>
       </div>
 
       <div className="max-w-sm w-full my-8 px-4 md:p-0">
@@ -52,4 +52,4 @@ export default function MeyqscilainePage() {
       </div>
     </>
   )
-} 
+}

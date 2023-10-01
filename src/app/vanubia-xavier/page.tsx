@@ -1,17 +1,17 @@
-import InstagramIcon from "@/components/icons/instagram";
-import SparklesIcon from "@/components/icons/sparkles";
-import WhtasappIcon from "@/components/icons/whatsapp";
-import { Metadata } from "next";
-import Image from "next/image";
+import InstagramIcon from '@/components/icons/instagram'
+import SparklesIcon from '@/components/icons/sparkles'
+import WhtasappIcon from '@/components/icons/whatsapp'
+import { Metadata } from 'next'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Vanubia Xavier | Cabeleireira',
-  description: 'Transformando você na sua melhor versão.',
+  description: 'Transformando você na sua melhor versão.'
 }
 export default function VanubiaXavierPage() {
   return (
     <>
-      <div className='flex md:flex-row flex-col gap-4 items-center justify-center mt-8  w-full'>
+      <div className="flex md:flex-row flex-col gap-4 items-center justify-center mt-8  w-full">
         <Image
           className="w-20 h-20 p-1 rounded-full ring-2 ring-[#8F6566]"
           src="https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/296612066_623545722520792_3226160538313054067_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=ZbmaS8A2P1QAX_ClswH&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AfBNcAsvBBqfIaaUcIwh0zZSLC3sVjWxQ3oYkoqtKTt5vQ&oe=65164795&_nc_sid=ee9879"
@@ -20,13 +20,12 @@ export default function VanubiaXavierPage() {
           height={80}
           priority
         />
-        <span className='text-black dark:text-white text-xl'>Vanubia Xavier</span>
+        <span className="text-black dark:text-white text-xl">Vanubia Xavier</span>
       </div>
       <div className="max-w-sm w-full my-8 px-4 md:p-0">
         <ul>
           <li>
-            Esteticista apaixonada pela área capilar!
-            Transformando você na sua melhor versão!
+            Esteticista apaixonada pela área capilar! Transformando você na sua melhor versão!
             Lembre-se sempre : Se nada mudar! mude você.
           </li>
         </ul>
@@ -62,4 +61,4 @@ export default function VanubiaXavierPage() {
       </div>
     </>
   )
-} 
+}
