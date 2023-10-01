@@ -23,9 +23,9 @@ export default function HomePage() {
           Simplificando a maneira de compartilhar seus links na internet.
         </h1>
         <h3 className="md:text-xl text-lg text-black/70 dark:text-white/70 mt-10">
-          A <i>Gibify Link</i> é a ferramenta ideal para influenciadores, criadores de conteúdo, e
-          qualquer pessoa que deseja otimizar sua presença online. É hora de simplificar a maneira
-          de compartilhar seu conteúdo na internet.
+          A <i>Gibify Link</i> é a ferramenta ideal para Empresas, Influenciadores, criadores de
+          conteúdo, e qualquer pessoa que deseja otimizar sua presença online. É hora de simplificar
+          a maneira de compartilhar seu conteúdo na internet.
           <br />
           Junte-se a <i className="font-medium text-green-500">gibify.link</i> e crie seu link
           personalizado hoje mesmo!
