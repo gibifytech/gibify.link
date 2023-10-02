@@ -57,6 +57,22 @@
       "path": "taillamaral"
     },
     {
+      "id": "08",
+      "name": "FLoripa Bike Club",
+      "title": "Bike e Pedal",
+      "description": "Junte-se a nós para explorar o melhor dos mundos com Bikes.",
+      "image_url": "https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/145391375_233721654964949_4995220656859459600_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=n16kz8nAfm0AX93lt3Y&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCidaUa9SWF9txAkWN8ZXSC_dvhmcOpdMHtn5zLVZBB8Q&oe=6520A32F&_nc_sid=8b354",
+      "path": "floripabikeclub"
+    },
+    {
+      "id": "09",
+      "name": "FBC Experience",
+      "title": "Bike e Pedal",
+      "description": "Compartilhando experiências de pessoas apaixonadas por Bikes.",
+      "image_url": "https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/275143548_694630131706428_4532701665689587116_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=8ipt7pz2qugAX_DKuHu&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfBYQkLWieRm2JLCdkruTKb8Y3azjmZp-X4ZUn1Rj39xxw&oe=651EF58A&_nc_sid=8b3546",
+      "path": "fbc-experience"
+    },
+    {
       "id": "98",
       "name": "Meyqscilaine Gonçalves",
       "title": "Marketing e Tecnologia",
@@ -71,14 +87,6 @@
       "description": "Apaixonado por códigos e café.",
       "image_url": "https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/361890449_183801664680630_8733781334214549013_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=yD516M80ktwAX-n0vKv&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCowH9tlrdPX7r5f0lwF2nL8yDcjqrI15Lklzig9-BN-A&oe=651758B1&_nc_sid=8b3546",
       "path": "alexandre-brasil"
-    },
-    {
-      "id": "08",
-      "name": "FLoripa Bike Club",
-      "title": "Bike e Pedal",
-      "description": "Junte-se a nós para explorar o melhor dos mundos com Bikes.",
-      "image_url": "https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/145391375_233721654964949_4995220656859459600_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=n16kz8nAfm0AX93lt3Y&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCidaUa9SWF9txAkWN8ZXSC_dvhmcOpdMHtn5zLVZBB8Q&oe=6520A32F&_nc_sid=8b354",
-      "path": "floripabikeclub"
     },
     {
       "id": "100",
