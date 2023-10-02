@@ -2,11 +2,11 @@ import { Metadata } from 'next'
 import Image from 'next/image'
 import GithubIcon from '@/components/icons/github'
 import WhtasappIcon from '@/components/icons/whatsapp'
-import GlobeIcon from '@/components/icons/globe'
+import LinkedInIcon from '@/components/icons/linkedin'
 
 export const metadata: Metadata = {
   title: 'Evandro Gibicoski | Web Developer',
-  description: 'Next.js, React.js, Javascript, Typescript, CSS e HTML'
+  description: 'Next.js, React.js, Javascript, Typescript.'
 }
 export default function MePage() {
   return (
@@ -32,13 +32,13 @@ export default function MePage() {
       </div>
       <div className="flex flex-col gap-4 max-w-sm w-full text-xs uppercase px-4 md:p-0">
         <a
-          href="https://wa.me/5548998463847"
+          href="https://www.linkedin.com/in/gibifydev/"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-2 rounded-3xl text-white bg-green-500 border border-green-500 p-2 w-full"
         >
-          <WhtasappIcon />
-          <span>WhatsApp</span>
+          <LinkedInIcon />
+          <span>linkedin</span>
         </a>
         <a
           href="https://github.com/gibify"
@@ -47,16 +47,16 @@ export default function MePage() {
           className="flex items-center justify-center gap-2 rounded-3xl text-white bg-green-500 border border-green-500 p-2 w-full"
         >
           <GithubIcon />
-          <span>Github</span>
+          <span>github</span>
         </a>
         <a
-          href="https://gibify.dev"
+          href="https://wa.me/5548998463847"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-2 rounded-3xl text-white bg-green-500 border border-green-500 p-2 w-full"
         >
-          <GlobeIcon />
-          <span>WebSite</span>
+          <WhtasappIcon />
+          <span>whatsApp</span>
         </a>
       </div>
     </>
