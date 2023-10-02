@@ -73,6 +73,22 @@
       "path": "fbc-experience"
     },
     {
+      "id": "10",
+      "name": "Dai Vanusa",
+      "title": "Advogada e Ciclista",
+      "description": "Advogada e Ciclista nas horas vagas.",
+      "image_url": "https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/312159260_492070076269939_5285625998172978107_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=qRq03DBjKv4AX8ibRv1&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCCXt0BK24VrLwZ01YCxp8yx9kw2QmQCKowTO7DZBh5lQ&oe=651FD4A5&_nc_sid=8b3546",
+      "path": "dai-vanusa"
+    },
+    {
+      "id": "11",
+      "name": "Franciele Stelle",
+      "title": "Empreendedora",
+      "description": "'Franciele Stelle - Empreendedora",
+      "image_url": "https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/381358577_3638371453152448_2478589154518273798_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=lHNPOH5DoL8AX80H7Gk&edm=ABmJApABAAAA&ccb=7-5&oh=00_AfC5Tdj_a_luM4imbJIV95migiaX3alo9sqOgkSHaIFtBA&oe=651F2850&_nc_sid=b41fef",
+      "path": "francielestelle"
+    },
+    {
       "id": "98",
       "name": "Meyqscilaine Gonçalves",
       "title": "Marketing e Tecnologia",
