@@ -24,7 +24,7 @@ export default function Page() {
       </div>
       <div className="max-w-sm w-full my-8 px-4 md:p-0">
         <ul>
-          <li>Empreendedora</li>
+          <li>Ser manicure é ajudar a colorir a vida das pessoas.</li>
         </ul>
       </div>
       <div className="flex flex-col gap-4 max-w-sm w-full text-sx uppercase px-4 md:p-0">
