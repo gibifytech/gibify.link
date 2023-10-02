@@ -3,7 +3,7 @@ import Link from 'next/link'
 import json from '../../JSON/user.json'
 
 export default function Carousel() {
-  const users = [...json.data, ...json.data, ...json.data]
+  const users = [...json.data]
   return (
     <div className="w-full  items-center pb-6 pt-1 mt-10 px-10">
       <h2 className="max-w-5xl mx-auto my-10 text-xl font-semibold">
