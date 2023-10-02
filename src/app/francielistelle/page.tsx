@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Franciele Stelle | Empreendedora',
-  description: 'Franciele Stelle - Empreendedora'
+  description: 'Ser manicure é ajudar a colorir a vida das pessoas.'
 }
 export default function Page() {
   return (
