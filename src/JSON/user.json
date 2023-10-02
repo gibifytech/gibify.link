@@ -73,6 +73,14 @@
       "path": "alexandre-brasil"
     },
     {
+      "id": "08",
+      "name": "FLoripa Bike Club",
+      "title": "Bike e Pedal",
+      "description": "Junte-se a nós para explorar o melhor dos mundos com Bikes.",
+      "image_url": "https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/145391375_233721654964949_4995220656859459600_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=n16kz8nAfm0AX93lt3Y&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCidaUa9SWF9txAkWN8ZXSC_dvhmcOpdMHtn5zLVZBB8Q&oe=6520A32F&_nc_sid=8b354",
+      "path": "floripabikeclub"
+    },
+    {
       "id": "100",
       "name": "Evandro Gibicoski",
       "title": "Web Developer",
