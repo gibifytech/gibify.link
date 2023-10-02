@@ -38,7 +38,7 @@ export default function Page() {
           <span>WhatsApp</span>
         </a>
         <a
-          href="https://www.instagram.com/vanubia_xavier_/"
+          href="https://www.instagram.com/fraan_unhasedepilacao/"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-2 rounded-3xl text-white bg-[#FF3131] border border-[#FF3131] p-2 w-full"
