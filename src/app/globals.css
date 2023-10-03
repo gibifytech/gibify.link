@@ -10,7 +10,7 @@
 
 @supports (font: -apple-system-body) and (-webkit-appearance: none) {
   img[loading='lazy'] {
-    cliprule: inset(0.6px);
+    clip-rule: inset(0.6px);
   }
 }
 

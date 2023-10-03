@@ -1,12 +1,12 @@
-const plugin = require('tailwindcss/plugin');
+const plugin = require('tailwindcss/plugin')
 
 const config = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}'
   ],
-  darkMode: ["class"],
+  darkMode: ['class'],
   theme: {
     extend: {
       colors: {
@@ -20,7 +20,7 @@ const config = {
           600: '#0e8f50',
           700: '#0b6f3e',
           800: '#085630',
-          900: '#064225',
+          900: '#064225'
         }
       },
       fontFamily: {
@@ -46,7 +46,7 @@ const config = {
         carousel: 'marquee 60s linear infinite',
         blink: 'blink 1.4s both infinite'
       }
-    },
+    }
   },
   future: {
     hoverOnlyWhenSupported: true
@@ -59,14 +59,14 @@ const config = {
           'animation-delay': (value: any) => {
             return {
               'animation-delay': value
-            };
+            }
           }
         },
         {
           values: theme('transitionDelay')
         }
-      );
+      )
     })
-  ],
+  ]
 }
 export default config
