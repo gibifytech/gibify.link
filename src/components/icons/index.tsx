@@ -3,6 +3,7 @@ import GlobeIcon from './globe'
 import InstagramIcon from './instagram'
 import LinkIcon from './link'
 import LinkedInIcon from './linkedin'
+import SparklesIcon from './sparkles'
 import WhtasappIcon from './whatsapp'
 
 interface IconsProps {
@@ -20,6 +21,8 @@ export default function Icons({ icon }: IconsProps) {
       return <GithubIcon />
     case 'linkedin':
       return <LinkedInIcon />
+    case 'sobre mim':
+      return <SparklesIcon />
     default:
       return <LinkIcon />
   }
