@@ -1,13 +1,10 @@
-import clsx from 'clsx'
-
-export default function SparklesIcon(props: React.ComponentProps<'svg'>) {
+export default function SparklesIcon() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       aria-label={'Sparkles'}
       viewBox="0 0 25 25"
-      {...props}
-      className={clsx('h-5 w-5 fill-current', props.className)}
+      className="h-5 w-5 fill-current"
     >
       <path
         strokeLinecap="round"
