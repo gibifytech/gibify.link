@@ -14,18 +14,18 @@ export async function generateMetadata({
 }: {
   params: { page: string }
 }): Promise<Metadata> {
-  const page = data.data?.find((user) => params.page && user.path === params.page)
+  const page = data.data?.find((user) => params.page && user.username === params.page)
 
   if (!page) return notFound()
 
   return {
-    title: page.metadata?.title,
+    title: `${page.metadata?.title} | Gibify Link`,
     description: page.metadata?.description
   }
 }
 
 export default function Page({ params }: { params: { page: string } }) {
-  const page = data.data?.find((user) => params.page && user.path === params.page)
+  const page = data.data?.find((user) => params.page && user.username === params.page)
 
   if (!page) notFound()
 
@@ -51,7 +51,7 @@ export default function Page({ params }: { params: { page: string } }) {
           <li>{page?.bio}</li>
         </ul>
       </div>
-      <div className="flex flex-col gap-4 max-w-sm w-full text-xs uppercase px-4 md:p-0">
+      <div className="flex flex-col gap-4  max-w-sm w-full text-xs uppercase px-4 md:p-0">
         {page.links.map((link, index) => (
           <a
             key={index}

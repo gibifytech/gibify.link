@@ -9,7 +9,7 @@
       },
       "bio": "Esteticista apaixonada pela área capilar! Transformando você na sua melhor versão! Lembre-se sempre: Se nada mudar! mude você.",
       "image": "https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/296612066_623545722520792_3226160538313054067_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=ZbmaS8A2P1QAX_ClswH&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AfBNcAsvBBqfIaaUcIwh0zZSLC3sVjWxQ3oYkoqtKTt5vQ&oe=65164795&_nc_sid=ee9879",
-      "path": "vanubia-xavier",
+      "username": "vanubia-xavier",
       "color": "#8F6566",
       "links": [
         {
@@ -27,6 +27,32 @@
       ]
     },
     {
+      "id": "02",
+      "name": "Helen Michele de Moura",
+      "metadata": {
+        "title": "Helen Michele de Moura",
+        "description": "Cabeleireira Integrativa. Terapeuta Capilar. Especialista em Doenças do couro cabeludo."
+      },
+      "bio": "Cabeleireira Integrativa. Terapeuta Capilar. Especialista em Doenças do couro cabeludo.",
+      "image": "https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/355832867_279165361256334_7828976762027422646_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=yFkQrxGrKucAX_tkwZn&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfBiNEbq4TMmts_TnUAjyC9hfjHquOnjVXhd8J3PwQEWuA&oe=6522540A&_nc_sid=8b3546",
+      "username": "helenterapeutacapilar",
+      "color": "#FFB94F",
+      "links": [
+        {
+          "label": "whatsapp",
+          "value": "https://wa.me/5565992112594"
+        },
+        {
+          "label": "instagram",
+          "value": "https://www.instagram.com/helen_perfect_hair/"
+        },
+        {
+          "label": "sobre mim",
+          "value": "https://gibify.app/helenterapeutacapilar"
+        }
+      ]
+    },
+    {
       "id": "98",
       "name": "Meyqscilaine Gonçalves",
       "metadata": {
@@ -35,7 +61,7 @@
       },
       "bio": "Social media apaixonada em criar e planejar conteúdos que gerem resultados.",
       "image": "/images/meyqscilaine_image.png",
-      "path": "meyqscilaine",
+      "username": "meyqscilaine",
       "color": "#8C52FF",
       "links": [
         {
@@ -61,7 +87,7 @@
       },
       "bio": "Qualquer um pode escrever um código que o computador entenda. Bons programadores escrevem códigos que humanos entendam.",
       "image": "https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/361890449_183801664680630_8733781334214549013_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=yD516M80ktwAX-n0vKv&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCowH9tlrdPX7r5f0lwF2nL8yDcjqrI15Lklzig9-BN-A&oe=651758B1&_nc_sid=8b3546",
-      "path": "alexandre-brasil",
+      "username": "alexandre-brasil",
       "color": "#4285F4",
       "links": [
         {
@@ -87,7 +113,7 @@
       },
       "bio": "Apaixonado por desenvolver aplicações web e criar um mundo de conexões através da internet.",
       "image": "https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/339312817_1385531305557881_1955479138216635658_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=ZJw_HRajS6UAX-N7ZrU&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfBrxy7cVYjJWEPudWLm68AVuH6ZFAtv_0183gdBsyLO-Q&oe=651612AC&_nc_sid=8b3546",
-      "path": "me",
+      "username": "me",
       "color": "#0e8f50",
       "links": [
         {
