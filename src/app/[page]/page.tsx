@@ -14,18 +14,18 @@ export async function generateMetadata({
 }: {
   params: { page: string }
 }): Promise<Metadata> {
-  const page = data.data?.find((user) => params.page && user.path === params.page)
+  const page = data.data?.find((user) => params.page && user.username === params.page)
 
   if (!page) return notFound()
 
   return {
-    title: `${page.name} | ${page.title}`,
-    description: page.description
+    title: `${page.metadata?.title} | Gibify Link`,
+    description: page.metadata?.description
   }
 }
 
 export default function Page({ params }: { params: { page: string } }) {
-  const page = data.data?.find((user) => params.page && user.path === params.page)
+  const page = data.data?.find((user) => params.page && user.username === params.page)
 
   if (!page) notFound()
 
@@ -38,7 +38,7 @@ export default function Page({ params }: { params: { page: string } }) {
             borderColor: page.color || '#0f9d58'
           }}
           className="w-20 h-20 p-1 rounded-full"
-          src={page.image_url}
+          src={page.image}
           alt="Bordered avatar"
           width={80}
           height={80}
@@ -48,10 +48,10 @@ export default function Page({ params }: { params: { page: string } }) {
       </div>
       <div className="max-w-sm w-full my-8 px-4 md:p-0">
         <ul>
-          <li>{page?.description}</li>
+          <li>{page?.bio}</li>
         </ul>
       </div>
-      <div className="flex flex-col gap-4 max-w-sm w-full text-xs uppercase px-4 md:p-0">
+      <div className="flex flex-col gap-4  max-w-sm w-full text-xs uppercase px-4 md:p-0">
         {page.links.map((link, index) => (
           <a
             key={index}
