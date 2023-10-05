@@ -1,4 +1,4 @@
-interface Link {
+export interface Link {
   icon: string
   label: string
   value: string
