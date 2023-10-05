@@ -387,6 +387,35 @@
       ]
     },
     {
+      "id": "15",
+      "name": "Kaka Capas Cell",
+      "metadata": {
+        "title": "Kaka Capas Cell",
+        "description": "Clima Top Prestadora de Serviços e Climatização"
+      },
+      "bio": "Celular, Acessórios e Eletrônicos. Entre em Contato!",
+      "image": "/images/kakacapas-image.png",
+      "username": "kakacapas",
+      "color": "#EB1827",
+      "links": [
+        {
+          "icon": "whatsapp",
+          "label": "contato 1",
+          "value": "https://wa.me/5565981290085"
+        },
+        {
+          "icon": "whatsapp",
+          "label": "contato 2",
+          "value": "https://wa.me/5565992473578"
+        },
+        {
+          "icon": "instagram",
+          "label": "instagram",
+          "value": "https://www.instagram.com/kakacapas_cell/"
+        }
+      ]
+    },
+    {
       "id": "98",
       "name": "Meyqscilaine Gonçalves",
       "metadata": {
