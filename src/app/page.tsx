@@ -1,9 +1,11 @@
 import Carousel from '@/components/carousel'
 import WhtasappIcon from '@/components/icons/whatsapp'
 
+const { NEXT_CLIENT_URL } = process.env
+
 export const metadata = {
   title: 'Gibify Link | Home',
-  metadataBase: new URL('https://gibify.link'),
+  metadataBase: new URL(`${NEXT_CLIENT_URL}`),
   alternates: {
     canonical: '/',
     languages: {

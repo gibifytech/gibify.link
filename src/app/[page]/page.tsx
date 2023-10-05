@@ -1,12 +1,11 @@
-/* eslint-disable quotes */
 import Image from 'next/image'
-import data from '../../JSON/data.json'
+import data from '../../json/data.json'
 import { notFound } from 'next/navigation'
 import Icons from '@/components/icons'
 import { Metadata } from 'next'
 
+const { SITE_NAME } = process.env
 export const runtime = 'edge'
-
 export const revalidate = 43200 // 12 hours in seconds
 
 export async function generateMetadata({
@@ -19,14 +18,13 @@ export async function generateMetadata({
   if (!page) return notFound()
 
   return {
-    title: `${page.metadata?.title} | Gibify Link`,
+    title: `${page.metadata?.title} | ${SITE_NAME}`,
     description: page.metadata?.description
   }
 }
 
-export default function Page({ params }: { params: { page: string } }) {
+export default async function Page({ params }: { params: { page: string } }) {
   const page = data.data?.find((user) => params.page && user.username === params.page)
-
   if (!page) notFound()
 
   return (

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import json from '../../JSON/data.json'
+import json from '../../json/data.json'
 
 export default function Carousel() {
   return (
