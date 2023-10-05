@@ -199,6 +199,141 @@
       ]
     },
     {
+      "id": "08",
+      "name": "Capricho",
+      "metadata": {
+        "title": "Capricho",
+        "description": "As melhores opções em presentes e utilidades."
+      },
+      "bio": "Capricho Presentes & Utilidades. As melhores opções em presentes e utilidades.",
+      "image": "https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/377312980_269332032614887_877906114347032228_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=8pjz1T6L44oAX9M9g2o&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfBHmDBV7NdmdIgt4r6dEK9SB3XkBvo52HWM9KxdHwDkMw&oe=651A2531&_nc_sid=8b3546",
+      "username": "caprichopresentes",
+      "color": "#00789A",
+      "links": [
+        {
+          "icon": "whatsapp",
+          "label": "whatsapp",
+          "value": "https://wa.me/5565981715855"
+        },
+        {
+          "icon": "instagram",
+          "label": "instagram",
+          "value": "https://www.instagram.com/caprichopresentesnm/"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "name": "Cia dos Celulares e Presentes",
+      "metadata": {
+        "title": "Cia dos Celulares e Presentes",
+        "description": "O shopping da sua Família."
+      },
+      "bio": "Cia dos Celulares e Presentes. O shopping da sua Família.",
+      "image": "https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/377572741_145015205343548_4144750756960278547_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=v-MjcrylPDsAX-AGDCY&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfBaAVk_vQpRpXP-XaBLiLnt1aOspe9oXU4XxQcNpfnmuA&oe=6518B47F&_nc_sid=8b3546",
+      "username": "ciadoscelularepresentes",
+      "color": "#000000",
+      "links": [
+        {
+          "icon": "whatsapp",
+          "label": "whatsapp",
+          "value": "https://wa.me/5565999897427"
+        },
+        {
+          "icon": "instagram",
+          "label": "instagram",
+          "value": "https://www.instagram.com/ciadoscelularepresentes/"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Taila Lima Amaral",
+      "metadata": {
+        "title": "Taila Lima Amaral",
+        "description": "Colecionando sorrisos, amores e momentos!"
+      },
+      "bio": "Ela é de exageros. Seja na força, no sorriso, na fé ou no amor...",
+      "image": "https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/363500300_3140470339593033_7310138449495673527_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=ni9KlSP2iegAX_fisA8&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfBOEVErWe7khSmD6KLgsJP-vDUMaiBlG9diVF7_AjZUig&oe=651D6F7A&_nc_sid=8b3546",
+      "username": "taillaamaral",
+      "color": "#EC5702",
+      "links": [
+        {
+          "icon": "whatsapp",
+          "label": "whatsapp",
+          "value": "https://wa.me/5565999021207"
+        },
+        {
+          "icon": "instagram",
+          "label": "instagram",
+          "value": "https://www.instagram.com/taillamaral/"
+        },
+        {
+          "icon": "about",
+          "label": "Sobre mim",
+          "value": "https://gibify.app/taillaamaral/"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Franciele Stelle",
+      "metadata": {
+        "title": "Franciele Stelle",
+        "description": "Ser manicure é ajudar a colorir a vida das pessoas."
+      },
+      "bio": "Ser manicure é ajudar a colorir a vida das pessoas.",
+      "image": "https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/385708922_1029044068250803_2660859815926234724_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=1A6uQkQH3gkAX8TY630&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfC8HdPsBfRUwnVUOc4xHf_Bo69Wbcljp-ET4l7Q8BlFUA&oe=651F5050&_nc_sid=8b3546",
+      "username": "francielistelle",
+      "color": "#FF3131",
+      "links": [
+        {
+          "icon": "whatsapp",
+          "label": "whatsapp",
+          "value": "https://wa.me/5565996306382"
+        },
+        {
+          "icon": "instagram",
+          "label": "instagram",
+          "value": "https://www.instagram.com/fraan_unhasedepilacao/"
+        },
+        {
+          "icon": "about",
+          "label": "Sobre mim",
+          "value": "https://gibify.app/francielistelle/"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Gibify - Marketing Tecnologia",
+      "metadata": {
+        "title": "Gibify - Marketing Tecnologia",
+        "description": "Transformando idéias em sucesso online."
+      },
+      "bio": "Agência de Marketing e Tecnologia. Transformando idéias em sucesso online.",
+      "image": "https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/384081426_342658424832184_6414952961385406642_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=2fFejtcKydkAX8aZiqQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfDacNLdmAqcJ41WvUntsL9Frn6X_Rmk2lQ6eV2p1aBh-g&oe=65190238&_nc_sid=8b3546",
+      "username": "mktech",
+      "color": "#8C52FF",
+      "links": [
+        {
+          "icon": "whatsapp",
+          "label": "whatsapp",
+          "value": "https://wa.me/5547984031893"
+        },
+        {
+          "icon": "instagram",
+          "label": "instagram",
+          "value": "https://www.instagram.com/gibifymarketing_"
+        },
+        {
+          "icon": "website",
+          "label": "Website",
+          "value": "https://gibify.com.br"
+        }
+      ]
+    },
+    {
       "id": "98",
       "name": "Meyqscilaine Gonçalves",
       "metadata": {
