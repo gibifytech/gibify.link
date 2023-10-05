@@ -13,14 +13,17 @@
       "color": "#8F6566",
       "links": [
         {
+          "icon": "whatsapp",
           "label": "whatsapp",
           "value": "https://wa.me/5565992700066"
         },
         {
+          "icon": "instagram",
           "label": "instagram",
           "value": "https://www.instagram.com/vanubia_xavier_/"
         },
         {
+          "icon": "about",
           "label": "sobre mim",
           "value": "https://gibify.app/vanubia-xavier"
         }
@@ -34,21 +37,58 @@
         "description": "Cabeleireira Integrativa. Terapeuta Capilar. Especialista em Doenças do couro cabeludo."
       },
       "bio": "Cabeleireira Integrativa. Terapeuta Capilar. Especialista em Doenças do couro cabeludo.",
-      "image": "https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/355832867_279165361256334_7828976762027422646_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=yFkQrxGrKucAX_tkwZn&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfBiNEbq4TMmts_TnUAjyC9hfjHquOnjVXhd8J3PwQEWuA&oe=6522540A&_nc_sid=8b3546",
+      "image": "/images/helenterapeutacapilar-image.jpeg",
       "username": "helenterapeutacapilar",
-      "color": "#FFB94F",
+      "color": "#E19F3E",
       "links": [
         {
+          "icon": "whatsapp",
           "label": "whatsapp",
           "value": "https://wa.me/5565992112594"
         },
         {
+          "icon": "instagram",
           "label": "instagram",
           "value": "https://www.instagram.com/helen_perfect_hair/"
         },
         {
+          "icon": "about",
           "label": "sobre mim",
           "value": "https://gibify.app/helenterapeutacapilar"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "name": "MV Corretora de Seguros e Assessoria",
+      "metadata": {
+        "title": "MV Corretora de Seguros e Assessoria",
+        "description": "Protejendo o seu patrimônio e seu futuro."
+      },
+      "bio": "  Queremos que você se sinta seguro ao contar conosco para protejer seu patrimônio e seu futuro.",
+      "image": "https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/366422309_1072876883707191_8465210700022159250_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=lQbqnUmDbg0AX8_uqBf&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfD72-u_xtFqpxVQIEj88x_51Q1ofXEVAgjlzBXKDc9qrw&oe=65197E9B&_nc_sid=8b3546",
+      "username": "mvcorretoraseguro",
+      "color": "#D7B440",
+      "links": [
+        {
+          "icon": "whatsapp",
+          "label": "Marcia",
+          "value": "https://wa.me/5565999527698"
+        },
+        {
+          "icon": "whatsapp",
+          "label": "Vanderlei",
+          "value": "https://wa.me/5565996705346"
+        },
+        {
+          "icon": "instagram",
+          "label": "instagram",
+          "value": "https://www.instagram.com/mvcorretoraseguro/"
+        },
+        {
+          "icon": "website",
+          "label": "Website",
+          "value": "https://gibify.app/mvcorretoraseguro"
         }
       ]
     },
@@ -56,7 +96,7 @@
       "id": "98",
       "name": "Meyqscilaine Gonçalves",
       "metadata": {
-        "title": "Meyqscilaine | Marketing e Tecnologia",
+        "title": "Meyqscilaine Gonçalves",
         "description": "Social media apaixonada em criar e planejar conteúdos que gerem resultados."
       },
       "bio": "Social media apaixonada em criar e planejar conteúdos que gerem resultados.",
@@ -65,16 +105,14 @@
       "color": "#8C52FF",
       "links": [
         {
+          "icon": "instagram",
           "label": "linkedin",
           "value": "https://www.linkedin.com/in/gibifydev/"
         },
         {
-          "label": "github",
-          "value": "https://github.com/gibify"
-        },
-        {
+          "icon": "whatsapp",
           "label": "whatsapp",
-          "value": "https://wa.me/5548998463847"
+          "value": "https://wa.me/5565992792383"
         }
       ]
     },
@@ -91,14 +129,17 @@
       "color": "#4285F4",
       "links": [
         {
+          "icon": "linkedin",
           "label": "linkedin",
           "value": "https://www.linkedin.com/in/alexandre-brasil-dos-santos"
         },
         {
+          "icon": "github",
           "label": "github",
           "value": "https://github.com/alexandre-cooper"
         },
         {
+          "icon": "whatsapp",
           "label": "whatsapp",
           "value": "https://wa.me/5565992792383"
         }
@@ -117,14 +158,17 @@
       "color": "#0e8f50",
       "links": [
         {
+          "icon": "linkedin",
           "label": "linkedin",
           "value": "https://www.linkedin.com/in/gibifydev/"
         },
         {
+          "icon": "github",
           "label": "github",
           "value": "https://github.com/gibify"
         },
         {
+          "icon": "whatsapp",
           "label": "whatsapp",
           "value": "https://wa.me/5548998463847"
         }

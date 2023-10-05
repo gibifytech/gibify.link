@@ -63,7 +63,7 @@ export default function Page({ params }: { params: { page: string } }) {
             }}
             className="flex items-end justify-center gap-2 rounded-3xl text-white border border-transparent p-2 w-full"
           >
-            <Icons icon={link.label} />
+            <Icons icon={link.icon} />
             <span>{link.label}</span>
           </a>
         ))}
