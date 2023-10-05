@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import json from '@/json/data.json'
-import { notFound } from 'next/navigation'
+import json from '../../json/data.json'
 import Icons from '@/components/icons'
+import { notFound } from 'next/navigation'
 import { Metadata } from 'next'
 
 const { SITE_NAME } = process.env
