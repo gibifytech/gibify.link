@@ -1,32 +1,27 @@
-/* eslint-disable quotes */
 import Image from 'next/image'
-import data from '../../JSON/data.json'
-import { notFound } from 'next/navigation'
 import Icons from '@/components/icons'
+import json from '../../JSON/data.json'
+import { notFound } from 'next/navigation'
 import { Metadata } from 'next'
 
-export const runtime = 'edge'
-
-export const revalidate = 43200 // 12 hours in seconds
+const { SITE_NAME } = process.env
 
 export async function generateMetadata({
   params
 }: {
   params: { page: string }
 }): Promise<Metadata> {
-  const page = data.data?.find((user) => params.page && user.username === params.page)
-
+  const page = json.data?.find((user) => params.page && user.username === params.page)
   if (!page) return notFound()
 
   return {
-    title: `${page.metadata?.title} | Gibify Link`,
+    title: `${page.metadata?.title} | ${SITE_NAME}`,
     description: page.metadata?.description
   }
 }
 
-export default function Page({ params }: { params: { page: string } }) {
-  const page = data.data?.find((user) => params.page && user.username === params.page)
-
+export default async function Page({ params }: { params: { page: string } }) {
+  const page = json.data?.find((user) => params.page && user.username === params.page)
   if (!page) notFound()
 
   return (

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import json from '../../JSON/user.json'
+import json from '../../JSON/data.json'
 
 export default function Carousel() {
   return (
@@ -14,7 +14,7 @@ export default function Carousel() {
           ? json.data.map((user) => (
               <Link
                 key={user.id}
-                href={`https://gibify.link/${user.path}`}
+                href={`https://gibify.link/${user.username}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className=""
@@ -22,19 +22,17 @@ export default function Carousel() {
                 <li className="flex border border-neutral-200 dark:border-neutral-800 hover:border-green-500 rounded-md h-[100px] w-[350px]">
                   <Image
                     className="rounded-tl-md rounded-bl-md"
-                    src={user.image_url}
+                    src={user.image}
                     alt="Bordered avatar"
                     width={100}
                     height={100}
                   />
                   <div className="flex flex-col items-start justify-between p-2">
                     <div>
-                      <h3 className="text-xs font-semibold">
-                        {user.name} | {user.title}
-                      </h3>
-                      <p className="text-xs">{user.description}</p>
+                      <h3 className="text-xs font-semibold">{user.metadata.title} | Gibify Link</h3>
+                      <p className="text-xs">{user.metadata.description}</p>
                     </div>
-                    <span className="text-black/70 dark:text-white/70 text-xs">{`gibify.link/${user.path}`}</span>
+                    <span className="text-black/70 dark:text-white/70 text-xs">{`gibify.link/${user.username}`}</span>
                   </div>
                 </li>
               </Link>
