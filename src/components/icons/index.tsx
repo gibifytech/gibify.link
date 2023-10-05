@@ -21,7 +21,7 @@ export default function Icons({ icon }: IconsProps) {
       return <GithubIcon />
     case 'linkedin':
       return <LinkedInIcon />
-    case 'sobre mim':
+    case 'about':
       return <SparklesIcon />
     default:
       return <LinkIcon />
