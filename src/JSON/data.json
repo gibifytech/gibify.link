@@ -334,6 +334,88 @@
       ]
     },
     {
+      "id": "13",
+      "name": "Mansão Hostel",
+      "metadata": {
+        "title": "Mansão Hostel",
+        "description": "Trabalhamos com hospedagem para homens."
+      },
+      "bio": "Trabalhamos com hospedagem para homens. Entre em contato!",
+      "image": "https://instagram.fbfh1-2.fna.fbcdn.net/v/t51.2885-19/333105172_2165452870321416_2490530349012383860_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fbfh1-2.fna.fbcdn.net&_nc_cat=100&_nc_ohc=Eyi5mcmnOKUAX_tkCmD&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfAnaaPJVOrFFXMBaPmPXsNSRQgtu-DbxmgGHBWoRucL4A&oe=65231CB6&_nc_sid=8b3546",
+      "username": "mansaohostel",
+      "color": "#1B5D1E",
+      "links": [
+        {
+          "icon": "whatsapp",
+          "label": "whatsapp",
+          "value": "https://wa.me/5547997301381"
+        },
+        {
+          "icon": "instagram",
+          "label": "instagram",
+          "value": "https://www.instagram.com/mansaohostel2023/"
+        },
+        {
+          "icon": "website",
+          "label": "Website",
+          "value": "https://www.gibify.app/mansaohostel/"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Clima Top Prestadora de Serviços",
+      "metadata": {
+        "title": "Clima Top Prestadora de Serviços",
+        "description": "Clima Top Prestadora de Serviços e Climatização"
+      },
+      "bio": "Clima Top Prestadora de Serviços e Climatização. ORÇAMENTO GRATUITO!",
+      "image": "https://instagram.fbfh1-2.fna.fbcdn.net/v/t51.2885-19/291453918_414116250626486_3387544480611285693_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fbfh1-2.fna.fbcdn.net&_nc_cat=102&_nc_ohc=pNfJSDjVlNUAX8FcI1D&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCZfqCJjJnJ1KfIUFmHAAnrZm1NZA6ndO6PtqPmH08gRg&oe=652444BC&_nc_sid=8b3546",
+      "username": "climatop",
+      "color": "#28376A",
+      "links": [
+        {
+          "icon": "whatsapp",
+          "label": "whatsapp",
+          "value": "https://wa.me/5547999452412"
+        },
+        {
+          "icon": "instagram",
+          "label": "instagram",
+          "value": "https://www.instagram.com/climatop_prestadoradeservicos/"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Kaka Capas Cell",
+      "metadata": {
+        "title": "Kaka Capas Cell",
+        "description": "Clima Top Prestadora de Serviços e Climatização"
+      },
+      "bio": "Celular, Acessórios e Eletrônicos. Entre em Contato!",
+      "image": "/images/kakacapas-image.png",
+      "username": "kakacapas",
+      "color": "#EB1827",
+      "links": [
+        {
+          "icon": "whatsapp",
+          "label": "contato 1",
+          "value": "https://wa.me/5565981290085"
+        },
+        {
+          "icon": "whatsapp",
+          "label": "contato 2",
+          "value": "https://wa.me/5565992473578"
+        },
+        {
+          "icon": "instagram",
+          "label": "instagram",
+          "value": "https://www.instagram.com/kakacapas_cell/"
+        }
+      ]
+    },
+    {
       "id": "98",
       "name": "Meyqscilaine Gonçalves",
       "metadata": {
