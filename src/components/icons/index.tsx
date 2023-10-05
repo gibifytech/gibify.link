@@ -1,5 +1,6 @@
 import GithubIcon from './github'
 import GlobeIcon from './globe'
+import GroupIcon from './group'
 import InstagramIcon from './instagram'
 import LinkIcon from './link'
 import LinkedInIcon from './linkedin'
@@ -23,6 +24,8 @@ export default function Icons({ icon }: IconsProps) {
       return <LinkedInIcon />
     case 'about':
       return <SparklesIcon />
+    case 'group':
+      return <GroupIcon />
     default:
       return <LinkIcon />
   }

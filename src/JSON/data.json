@@ -117,6 +117,88 @@
       ]
     },
     {
+      "id": "05",
+      "name": "FBC Experience",
+      "metadata": {
+        "title": "FBC Experience",
+        "description": "Compartilhando experiências com pessoas apaixonadas por Bikes."
+      },
+      "bio": "Compartilhando experiências com pessoas apaixonadas por Bikes.",
+      "image": "https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/275143548_694630131706428_4532701665689587116_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=8ipt7pz2qugAX_DKuHu&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfBYQkLWieRm2JLCdkruTKb8Y3azjmZp-X4ZUn1Rj39xxw&oe=651EF58A&_nc_sid=8b3546",
+      "username": "fbc-experience",
+      "color": "#F34006",
+      "links": [
+        {
+          "icon": "group",
+          "label": "nosso grupo",
+          "value": "https://chat.whatsapp.com/CmS7JTuGr9nJ4QOrH5Mv7p"
+        },
+        {
+          "icon": "whatsapp",
+          "label": "whatsapp",
+          "value": "https://wa.me/48998317855"
+        },
+        {
+          "icon": "website",
+          "label": "Website",
+          "value": "https://www.floripabikeclub.com.br/"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "name": "FLoripa Bike Club",
+      "metadata": {
+        "title": "FLoripa Bike Club",
+        "description": "Junte-se a nós para explorar o melhor dos mundos com Bikes."
+      },
+      "bio": "Junte-se a nós para explorar o melhor dos mundos com Bikes.",
+      "image": "https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/145391375_233721654964949_4995220656859459600_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=n16kz8nAfm0AX93lt3Y&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCidaUa9SWF9txAkWN8ZXSC_dvhmcOpdMHtn5zLVZBB8Q&oe=6520A32F&_nc_sid=8b3546",
+      "username": "floripabikeclub",
+      "color": "#043ABE",
+      "links": [
+        {
+          "icon": "group",
+          "label": "nosso grupo",
+          "value": "https://chat.whatsapp.com/Cxxb9grJGPz8nRvDJbAzFR"
+        },
+        {
+          "icon": "whatsapp",
+          "label": "whatsapp",
+          "value": "https://wa.me/5548998317855"
+        },
+        {
+          "icon": "website",
+          "label": "Website",
+          "value": "https://www.floripabikeclub.com.br/"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "name": "Dai Vanusa",
+      "metadata": {
+        "title": "Dai Vanusa",
+        "description": "Advogada e Ciclista nas horas vagas."
+      },
+      "bio": "Advogada e Ciclista nas horas vagas. Entre em contato!",
+      "image": "https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/312159260_492070076269939_5285625998172978107_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=qRq03DBjKv4AX8ibRv1&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCCXt0BK24VrLwZ01YCxp8yx9kw2QmQCKowTO7DZBh5lQ&oe=651FD4A5&_nc_sid=8b3546",
+      "username": "dai-vanusa",
+      "color": "#BE185D",
+      "links": [
+        {
+          "icon": "whatsapp",
+          "label": "whatsapp",
+          "value": "https://wa.me/554898317855"
+        },
+        {
+          "icon": "instagram",
+          "label": "instagram",
+          "value": "https://www.instagram.com/dai.vanusa/"
+        }
+      ]
+    },
+    {
       "id": "98",
       "name": "Meyqscilaine Gonçalves",
       "metadata": {
