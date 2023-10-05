@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import data from '../../json/data.json'
+import json from '@/json/data.json'
 import { notFound } from 'next/navigation'
 import Icons from '@/components/icons'
 import { Metadata } from 'next'
@@ -13,7 +13,7 @@ export async function generateMetadata({
 }: {
   params: { page: string }
 }): Promise<Metadata> {
-  const page = data.data?.find((user) => params.page && user.username === params.page)
+  const page = json.data?.find((user) => params.page && user.username === params.page)
 
   if (!page) return notFound()
 
@@ -24,7 +24,7 @@ export async function generateMetadata({
 }
 
 export default async function Page({ params }: { params: { page: string } }) {
-  const page = data.data?.find((user) => params.page && user.username === params.page)
+  const page = json.data?.find((user) => params.page && user.username === params.page)
   if (!page) notFound()
 
   return (
