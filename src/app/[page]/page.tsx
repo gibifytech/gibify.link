@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import json from '../../json/data.json'
 import Icons from '@/components/icons'
+import json from '../../json/data.json'
 import { notFound } from 'next/navigation'
 import { Metadata } from 'next'
 
@@ -14,7 +14,6 @@ export async function generateMetadata({
   params: { page: string }
 }): Promise<Metadata> {
   const page = json.data?.find((user) => params.page && user.username === params.page)
-
   if (!page) return notFound()
 
   return {
