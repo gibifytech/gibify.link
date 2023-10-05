@@ -1,17 +1,17 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { data } from '../../json/data.json'
+import json from '../../JSON/data.json'
 
 export default function Carousel() {
   return (
     <div className="w-full  items-center pb-6 pt-1 mt-10 px-10">
       <h2 className="max-w-5xl mx-auto my-10 text-xl font-semibold">
-        Já são <i className="text-green-500">{data.length}</i> contas que estão usando a{' '}
+        Já são <i className="text-green-500">{json.data.length}</i> contas que estão usando a{' '}
         <i className="text-green-500">gibify.link</i>
       </h2>
       <ul className="flex animate-carousel gap-4">
-        {data.length
-          ? data.map((user) => (
+        {json.data.length
+          ? json.data.map((user) => (
               <Link
                 key={user.id}
                 href={`https://gibify.link/${user.username}`}
