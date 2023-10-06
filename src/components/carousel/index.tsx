@@ -29,7 +29,7 @@ export default function Carousel() {
                   />
                   <div className="flex flex-col items-start justify-between p-2">
                     <div>
-                      <h3 className="text-xs font-semibold">{user.metadata.title} | Gibify Link</h3>
+                      <h3 className="text-xs font-semibold">{user.metadata.title}</h3>
                       <p className="text-xs">{user.metadata.description}</p>
                     </div>
                     <span className="text-black/70 dark:text-white/70 text-xs">{`gibify.link/${user.username}`}</span>
