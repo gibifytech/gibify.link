@@ -20,18 +20,18 @@ export async function generateMetadata({
     description: page.metadata.description,
     openGraph: {
       type: 'website',
-      title: page.metadata?.title,
-      description: page.metadata.description,
       url: 'https://gibify.link',
       siteName: 'Gibify Link',
+      title: page.metadata?.title,
+      description: page.metadata.description,
       images: [`${page.image}`]
     },
     twitter: {
       card: 'summary_large_image',
       creator: '@gibifydev',
-      title: 'Gibify Link',
-      description: 'Simplificando a maneira de compartilhar seus links na internet.',
       site: 'https://gibify.link',
+      title: page.metadata?.title,
+      description: page.metadata.description,
       images: `${page.image}`
     }
   }
