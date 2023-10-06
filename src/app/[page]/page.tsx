@@ -5,7 +5,7 @@ import Avatar from '@/components/avatar'
 import Bio from '@/components/bio'
 import Links from '@/components/links'
 
-const { SITE_NAME } = process.env
+const { NEXT_CLIENT_URL } = process.env
 export const runtime = 'edge'
 
 export async function generateMetadata({
@@ -17,10 +17,10 @@ export async function generateMetadata({
   if (!page) return notFound()
 
   return {
-    title: `${page.metadata?.title} | ${SITE_NAME}`,
+    title: page.metadata?.title,
     description: page.metadata?.description,
     openGraph: {
-      images: [`${page.image}`]
+      images: [`${NEXT_CLIENT_URL}${page.image}`]
     }
   }
 }
