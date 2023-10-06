@@ -5,9 +5,9 @@ import Avatar from '@/components/avatar'
 import Bio from '@/components/bio'
 import Links from '@/components/links'
 
-const { NEXT_CLIENT_URL } = process.env
 export const runtime = 'edge'
 
+const { NEXT_CLIENT_URL } = process.env
 export async function generateMetadata({
   params
 }: {
@@ -19,8 +19,15 @@ export async function generateMetadata({
   return {
     title: page.metadata?.title,
     description: page.metadata?.description,
+    metadataBase: new URL(`${NEXT_CLIENT_URL}`),
+    alternates: {
+      canonical: '/',
+      languages: {
+        'pt-BR': '/pt-BR'
+      }
+    },
     openGraph: {
-      images: [`${NEXT_CLIENT_URL}${page.image}`]
+      images: [`${page.image}`]
     }
   }
 }
