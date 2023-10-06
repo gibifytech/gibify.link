@@ -5,7 +5,6 @@ import Avatar from '@/components/avatar'
 import Bio from '@/components/bio'
 import Links from '@/components/links'
 
-const { NEXT_CLIENT_URL } = process.env
 export const runtime = 'edge'
 
 export async function generateMetadata({
@@ -18,9 +17,22 @@ export async function generateMetadata({
 
   return {
     title: page.metadata?.title,
-    description: page.metadata?.description,
+    description: page.metadata.description,
+    twitter: {
+      card: 'summary_large_image',
+      creator: '@gibifydev',
+      title: 'Evandro Gibicoski',
+      description: 'Web developer',
+      site: 'https://gibify.dev',
+      images: '/images/evandro-gibicoski-image.png'
+    },
     openGraph: {
-      images: [`${NEXT_CLIENT_URL}${page.image}`]
+      type: 'website',
+      title: page.metadata?.title,
+      description: page.metadata.description,
+      url: 'https://gibify.link',
+      siteName: 'Gibify Link',
+      images: [`${page.image}`]
     }
   }
 }
