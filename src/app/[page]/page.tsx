@@ -6,6 +6,7 @@ import Bio from '@/components/bio'
 import Links from '@/components/links'
 
 const { SITE_NAME } = process.env
+export const runtime = 'edge'
 
 export async function generateMetadata({
   params
@@ -17,7 +18,10 @@ export async function generateMetadata({
 
   return {
     title: `${page.metadata?.title} | ${SITE_NAME}`,
-    description: page.metadata?.description
+    description: page.metadata?.description,
+    openGraph: {
+      images: [`${page.image}`]
+    }
   }
 }
 
