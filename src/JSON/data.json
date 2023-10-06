@@ -182,7 +182,7 @@
         "description": "Advogada e Ciclista nas horas vagas."
       },
       "bio": "Advogada e Ciclista nas horas vagas. Entre em contato!",
-      "image": "https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/312159260_492070076269939_5285625998172978107_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=qRq03DBjKv4AX8ibRv1&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCCXt0BK24VrLwZ01YCxp8yx9kw2QmQCKowTO7DZBh5lQ&oe=651FD4A5&_nc_sid=8b3546",
+      "image": "/images/dai-vanusa-image.png",
       "username": "dai-vanusa",
       "color": "#BE185D",
       "links": [
@@ -283,7 +283,7 @@
         "description": "Ser manicure é ajudar a colorir a vida das pessoas."
       },
       "bio": "Ser manicure é ajudar a colorir a vida das pessoas.",
-      "image": "https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/385708922_1029044068250803_2660859815926234724_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=1A6uQkQH3gkAX8TY630&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfC8HdPsBfRUwnVUOc4xHf_Bo69Wbcljp-ET4l7Q8BlFUA&oe=651F5050&_nc_sid=8b3546",
+      "image": "/images/franciele-stelle-image.png",
       "username": "francielistelle",
       "color": "#FF3131",
       "links": [
@@ -306,13 +306,13 @@
     },
     {
       "id": "12",
-      "name": "Gibify - Marketing Tecnologia",
+      "name": "Gibify - Marketing & Tecnologia",
       "metadata": {
-        "title": "Gibify | Marketing Tecnologia",
+        "title": "Gibify | Marketing & Tecnologia",
         "description": "Transformando idéias em sucesso online."
       },
       "bio": "Agência de Marketing e Tecnologia. Transformando idéias em sucesso online.",
-      "image": "https://instagram.fnvt1-1.fna.fbcdn.net/v/t51.2885-19/384081426_342658424832184_6414952961385406642_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fnvt1-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=2fFejtcKydkAX8aZiqQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfDacNLdmAqcJ41WvUntsL9Frn6X_Rmk2lQ6eV2p1aBh-g&oe=65190238&_nc_sid=8b3546",
+      "image": "/images/gibify-marketing-e-tecnologia-image.png",
       "username": "mktech",
       "color": "#8C52FF",
       "links": [
