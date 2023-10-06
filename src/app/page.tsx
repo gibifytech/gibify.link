@@ -18,10 +18,10 @@ export async function generateMetadata(): Promise<Metadata> {
     twitter: {
       card: 'summary_large_image',
       creator: '@gibifydev',
-      title: 'Evandro Gibicoski',
-      description: 'Web developer',
-      site: 'https://gibify.dev',
-      images: '/images/evandro-gibicoski-image.png'
+      title: 'Home | Gibify Link',
+      description: 'Simplificando a maneira de compartilhar seus links na internet.',
+      site: 'https://gibify.link',
+      images: '/images/gibify-link-logo.png'
     }
   }
 }

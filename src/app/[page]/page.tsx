@@ -29,10 +29,10 @@ export async function generateMetadata({
     twitter: {
       card: 'summary_large_image',
       creator: '@gibifydev',
-      title: 'Evandro Gibicoski',
-      description: 'Web developer',
-      site: 'https://gibify.dev',
-      images: '/images/evandro-gibicoski-image.png'
+      title: 'Gibify Link',
+      description: 'Simplificando a maneira de compartilhar seus links na internet.',
+      site: 'https://gibify.link',
+      images: `${page.image}`
     }
   }
 }
