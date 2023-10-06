@@ -7,7 +7,6 @@ import Links from '@/components/links'
 
 export const runtime = 'edge'
 
-const { NEXT_CLIENT_URL } = process.env
 export async function generateMetadata({
   params
 }: {
@@ -17,16 +16,12 @@ export async function generateMetadata({
   if (!page) return notFound()
 
   return {
-    title: page.metadata?.title,
-    description: page.metadata?.description,
-    metadataBase: new URL(`${NEXT_CLIENT_URL}`),
-    alternates: {
-      canonical: '/',
-      languages: {
-        'pt-BR': '/pt-BR'
-      }
-    },
     openGraph: {
+      type: 'website',
+      title: page.metadata?.title,
+      description: page.metadata.description,
+      url: 'https://gibify.link',
+      siteName: 'Gibify Link',
       images: [`${page.image}`]
     }
   }
