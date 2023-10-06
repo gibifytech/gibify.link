@@ -12,7 +12,7 @@ export default function NotFound() {
         Acessar a Home
       </Link>
       <Link
-        href="https://wa.me/5548998463847?text="
+        href="https://wa.me/5548998463847"
         target="_blank"
         rel="noopener noreferrer"
         className="mx-auto mt-4 flex w-full items-center justify-center rounded-full bg-black p-4 tracking-wide text-white hover:opacity-90"
