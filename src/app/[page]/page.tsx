@@ -16,6 +16,16 @@ export async function generateMetadata({
   if (!page) return notFound()
 
   return {
+    title: page.metadata?.title,
+    description: page.metadata.description,
+    twitter: {
+      card: 'summary_large_image',
+      creator: '@gibifydev',
+      title: 'Evandro Gibicoski',
+      description: 'Web developer',
+      site: 'https://gibify.dev',
+      images: '/images/evandro-gibicoski-image.png'
+    },
     openGraph: {
       type: 'website',
       title: page.metadata?.title,
