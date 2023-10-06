@@ -1,19 +1,28 @@
 import Carousel from '@/components/carousel'
 import WhtasappIcon from '@/components/icons/whatsapp'
+import { Metadata } from 'next'
+export const runtime = 'edge'
 
-const { NEXT_CLIENT_URL, SITE_NAME } = process.env
-
-export const metadata = {
-  title: `Home | ${SITE_NAME}`,
-  metadataBase: new URL(`${NEXT_CLIENT_URL}`),
-  alternates: {
-    canonical: '/',
-    languages: {
-      'pt-BR': '/pt-BR'
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Home | Gibify Link',
+    description: 'Simplificando a maneira de compartilhar seus links na internet.',
+    openGraph: {
+      type: 'website',
+      title: 'Home | Gibify Link',
+      description: 'Simplificando a maneira de compartilhar seus links na internet.',
+      url: 'https://gibify.link',
+      siteName: 'Gibify Link',
+      images: ['/images/gibify-link-logo.png']
+    },
+    twitter: {
+      card: 'summary_large_image',
+      creator: '@gibifydev',
+      title: 'Evandro Gibicoski',
+      description: 'Web developer',
+      site: 'https://gibify.dev',
+      images: '/images/evandro-gibicoski-image.png'
     }
-  },
-  openGraph: {
-    images: '/opengraph-image.png'
   }
 }
 

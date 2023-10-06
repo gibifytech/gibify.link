@@ -18,14 +18,6 @@ export async function generateMetadata({
   return {
     title: page.metadata?.title,
     description: page.metadata.description,
-    twitter: {
-      card: 'summary_large_image',
-      creator: '@gibifydev',
-      title: 'Evandro Gibicoski',
-      description: 'Web developer',
-      site: 'https://gibify.dev',
-      images: '/images/evandro-gibicoski-image.png'
-    },
     openGraph: {
       type: 'website',
       title: page.metadata?.title,
@@ -33,6 +25,14 @@ export async function generateMetadata({
       url: 'https://gibify.link',
       siteName: 'Gibify Link',
       images: [`${page.image}`]
+    },
+    twitter: {
+      card: 'summary_large_image',
+      creator: '@gibifydev',
+      title: 'Evandro Gibicoski',
+      description: 'Web developer',
+      site: 'https://gibify.dev',
+      images: '/images/evandro-gibicoski-image.png'
     }
   }
 }
