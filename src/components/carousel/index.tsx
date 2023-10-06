@@ -4,7 +4,7 @@ import json from '../../JSON/data.json'
 
 export default function Carousel() {
   return (
-    <div className="w-full  items-center pt-1 mt-10 px-10">
+    <div className="w-full  items-center pt-1 mt-6 mb-4 px-10">
       <h2 className="max-w-5xl mx-auto my-10 text-xl font-semibold">
         Já são <i className="text-green-500">{json.data.length}</i> contas que estão usando a{' '}
         <i className="text-green-500">gibify.link</i>

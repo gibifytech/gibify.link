@@ -35,7 +35,8 @@ export default function HomePage() {
             'radial-gradient(circle at 25px 25px, lightgray 2%, transparent 0%), radial-gradient(circle at 75px 75px, lightgray 2%, transparent 0%)',
           backgroundSize: '100px 100px',
           width: '100%',
-          height: '100vh'
+          height: '100%',
+          marginTop: 100
         }}
       >
         <div className="max-w-5xl mx-auto p-6 md:p-8">
