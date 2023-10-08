@@ -341,7 +341,7 @@
         "description": "Trabalhamos com hospedagem para homens."
       },
       "bio": "Trabalhamos com hospedagem para homens. Entre em contato!",
-      "image": "/images/mansaohostel-image.jpeg",
+      "image": "/images/mansaohostel-image.png",
       "username": "mansaohostel",
       "color": "#1B5D1E",
       "links": [
@@ -356,8 +356,8 @@
           "value": "https://www.instagram.com/mansaohostel2023/"
         },
         {
-          "icon": "website",
-          "label": "Website",
+          "icon": "about",
+          "label": "Sobre o hostel",
           "value": "https://www.gibify.app/mansaohostel/"
         }
       ]
