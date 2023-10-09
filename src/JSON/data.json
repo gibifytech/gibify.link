@@ -311,24 +311,39 @@
         "title": "Gibify | Marketing & Tecnologia",
         "description": "Transformando idéias em sucesso online."
       },
-      "bio": "Agência de Marketing e Tecnologia. Transformando idéias em sucesso online.",
+      "bio": "Agência de Marketing e Tecnologia. Transformando idéias em sucesso online. Veja nossos serviços:",
       "image": "/images/gibify-marketing-e-tecnologia-image.png",
       "username": "mktech",
       "color": "#8C52FF",
       "links": [
         {
-          "icon": "whatsapp",
-          "label": "whatsapp",
-          "value": "https://wa.me/5547984031893"
+          "icon": "mkt",
+          "label": "social media",
+          "value": "https://wa.me/5547984031398/?text=Olá!%20Eu%20tenho%20interesse,%20serviços%20para%20Social%20Media."
         },
         {
-          "icon": "instagram",
-          "label": "instagram",
-          "value": "https://www.instagram.com/gibifymarketing_"
+          "icon": "link",
+          "label": "link na bio",
+          "value": "https://wa.me/5547984031398/?text=Olá!%20Eu%20tenho%20interesse,%20serviços%20para%20Link%20na%20Bio."
+        },
+        {
+          "icon": "querystats",
+          "label": "Google Ads",
+          "value": "https://wa.me/5547984031398/?text=Olá!%20Eu%20tenho%20interesse,%20serviços%20para%20Google%20Ads."
+        },
+        {
+          "icon": "adsclick",
+          "label": "Metas Ads",
+          "value": "https://wa.me/5547984031398/?text=Olá!%20Eu%20tenho%20interesse,%20serviços%20para%20Meta%20Ads."
+        },
+        {
+          "icon": "sell",
+          "label": "E-commerce",
+          "value": "https://wa.me/5547984031398/?text=Olá!%20Eu%20tenho%20interesse,%20serviços%20para%20E-commerce."
         },
         {
           "icon": "website",
-          "label": "Website",
+          "label": "Nosso Website",
           "value": "https://gibify.com.br"
         }
       ]

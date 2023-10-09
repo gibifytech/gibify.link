@@ -1,4 +1,5 @@
 import GithubIcon from './github'
+import QueryStatsIcon from './querystats'
 import GlobeIcon from './globe'
 import GroupIcon from './group'
 import InstagramIcon from './instagram'
@@ -7,6 +8,9 @@ import LinkedInIcon from './linkedin'
 import LocationIcon from './location'
 import SparklesIcon from './sparkles'
 import WhtasappIcon from './whatsapp'
+import AdsClickIcon from './adsclick'
+import SellIcon from './sell'
+import MktIcon from './mkt'
 
 interface IconsProps {
   icon: string
@@ -29,6 +33,14 @@ export default function Icons({ icon }: IconsProps) {
       return <GroupIcon />
     case 'location':
       return <LocationIcon />
+    case 'querystats':
+      return <QueryStatsIcon />
+    case 'adsclick':
+      return <AdsClickIcon />
+    case 'sell':
+      return <SellIcon />
+    case 'mkt':
+      return <MktIcon />
     default:
       return <LinkIcon />
   }
