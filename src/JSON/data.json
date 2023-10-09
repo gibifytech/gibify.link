@@ -354,11 +354,6 @@
           "icon": "instagram",
           "label": "instagram",
           "value": "https://www.instagram.com/mansaohostel2023/"
-        },
-        {
-          "icon": "about",
-          "label": "Sobre o hostel",
-          "value": "https://www.gibify.app/mansaohostel/"
         }
       ]
     },
