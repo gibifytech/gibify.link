@@ -4,6 +4,7 @@ import GroupIcon from './group'
 import InstagramIcon from './instagram'
 import LinkIcon from './link'
 import LinkedInIcon from './linkedin'
+import LocationIcon from './location'
 import SparklesIcon from './sparkles'
 import WhtasappIcon from './whatsapp'
 
@@ -26,6 +27,8 @@ export default function Icons({ icon }: IconsProps) {
       return <SparklesIcon />
     case 'group':
       return <GroupIcon />
+    case 'location':
+      return <LocationIcon />
     default:
       return <LinkIcon />
   }
