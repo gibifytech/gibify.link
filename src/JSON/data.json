@@ -411,6 +411,35 @@
       ]
     },
     {
+      "id": "16",
+      "name": "Jungle Fitness Premium",
+      "metadata": {
+        "title": "Jungle Fitness Premium | Academia",
+        "description": "A Sua academia premium com preço popular em Buguaçu."
+      },
+      "bio": "A Sua academia premium com preço popular em Buguaçu.",
+      "image": "/images/junglefitnesspremium-image.png",
+      "username": "junglefitnesspremium",
+      "color": "#AB9447",
+      "links": [
+        {
+          "icon": "whatsapp",
+          "label": "whatsapp",
+          "value": "https://wa.me/5548991981122"
+        },
+        {
+          "icon": "location",
+          "label": "Onde Estamos",
+          "value": "https://maps.app.goo.gl/gMx7DJHubR3G6V9P8"
+        },
+        {
+          "icon": "instagram",
+          "label": "instagram",
+          "value": "https://www.instagram.com/junglefitnesspremium/"
+        }
+      ]
+    },
+    {
       "id": "98",
       "name": "Meyqscilaine Gonçalves",
       "metadata": {
