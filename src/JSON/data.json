@@ -479,7 +479,12 @@
         {
           "icon": "github",
           "label": "github",
-          "value": "https://www.instagram.com/ra.engg/"
+          "value": "https://github.com/rafamatos"
+        },
+        {
+          "icon": "linkedin",
+          "label": "linkedin",
+          "value": "https://www.linkedin.com/in/rafaelmatos-a6986326b/"
         }
       ]
     },
