@@ -13,6 +13,10 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
+  robots: {
+    follow: true,
+    index: true
+  },
   verification: {
     google: 'NZ-zRsj3eU2EdmeG8llgzrBIHSozkP7W9illfOmVr0M',
     other: {

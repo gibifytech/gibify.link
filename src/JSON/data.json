@@ -489,6 +489,45 @@
       ]
     },
     {
+      "id": "18",
+      "name": "Inversol - Energia Solar",
+      "metadata": {
+        "title": "Inversol | Energia Solar",
+        "description": "Gerando energia limpa e sustentável. Invertendo o Sol em Economia."
+      },
+      "bio": "Inversol - Energia Solar. Gerando energia limpa e sustentável. Invertendo o Sol em Economia.",
+      "image": "/images/inversol-image.png",
+      "username": "inversol",
+      "color": "#325387",
+      "links": [
+        {
+          "icon": "whatsapp",
+          "label": "whatsapp",
+          "value": "https://wa.me/5565992168368"
+        },
+        {
+          "icon": "location",
+          "label": "Onde Estamos",
+          "value": "https://maps.app.goo.gl/hw437Q439ibUUdJP9"
+        },
+        {
+          "icon": "instagram",
+          "label": "instagram",
+          "value": "https://www.instagram.com/grupoinversol/"
+        },
+        {
+          "icon": "facebook",
+          "label": "facebook",
+          "value": "https://www.facebook.com/grupoinversol/"
+        },
+        {
+          "icon": "website",
+          "label": "Website",
+          "value": "https://inversolenergiasolar.com.br/"
+        }
+      ]
+    },
+    {
       "id": "98",
       "name": "Meyqscilaine Gonçalves",
       "metadata": {

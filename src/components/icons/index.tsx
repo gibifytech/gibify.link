@@ -11,6 +11,7 @@ import WhtasappIcon from './whatsapp'
 import AdsClickIcon from './adsclick'
 import SellIcon from './sell'
 import MktIcon from './mkt'
+import FacebookIcon from './facebook'
 
 interface IconsProps {
   icon: string
@@ -19,6 +20,8 @@ export default function Icons({ icon }: IconsProps) {
   switch (icon) {
     case 'instagram':
       return <InstagramIcon />
+    case 'facebook':
+      return <FacebookIcon />
     case 'whatsapp':
       return <WhtasappIcon />
     case 'website':
