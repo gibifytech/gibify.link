@@ -427,30 +427,45 @@
     },
     {
       "id": "16",
-      "name": "Jungle Fitness Premium",
+      "name": "M&M Ateliê da Sobrancelha & Makeup",
       "metadata": {
-        "title": "Jungle Fitness Premium | Academia",
-        "description": "A Sua academia premium com preço popular em Buguaçu."
+        "title": "M&M Ateliê da Sobrancelha & Makeup | Salão de Beleza",
+        "description": "O Ateliê da beleza completo para melhor lhe atender!"
       },
-      "bio": "A Sua academia premium com preço popular em Buguaçu.",
-      "image": "/images/junglefitnesspremium-image.png",
-      "username": "junglefitnesspremium",
-      "color": "#AB9447",
+      "bio": "O Ateliê da beleza completo para melhor lhe atender!",
+      "image": "/images/atelie-das-sombrancelhas.png",
+      "username": "mmateliesobrancelhamakeup",
+      "color": "#D2AD6E",
       "links": [
+        {
+          "icon": "calendar",
+          "label": "Agende um Horário",
+          "value": "https://agendeonline.salonsoft.com.br/mmateliedasobrancelhamakeup"
+        },
         {
           "icon": "whatsapp",
           "label": "whatsapp",
-          "value": "https://wa.me/5548991981122"
+          "value": "https://wa.me/55065992382416"
+        },
+        {
+          "icon": "about",
+          "label": "sobre nós",
+          "value": "https://gibify.app/mmatelieobrancelhamakeup"
         },
         {
           "icon": "location",
           "label": "Onde Estamos",
-          "value": "https://maps.app.goo.gl/Ph8Xy2Lh8ekdu7oy9"
+          "value": "https://maps.app.goo.gl/eks9MzcSPwVD6gFA9"
         },
         {
           "icon": "instagram",
           "label": "instagram",
-          "value": "https://www.instagram.com/junglefitnesspremium/"
+          "value": "https://www.instagram.com/mm_ateliesobrancelhas_makeup/"
+        },
+        {
+          "icon": "facebook",
+          "label": "facebook",
+          "value": "https://www.instagram.com/mm_ateliesobrancelhas_makeup/"
         }
       ]
     },
