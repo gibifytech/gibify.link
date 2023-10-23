@@ -21,6 +21,7 @@ export default function Avatar({
         alt={name}
         width={80}
         height={80}
+        objectFit="cover"
         priority
       />
       <span className="text-black dark:text-white text-xl">{name}</span>
