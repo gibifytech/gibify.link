@@ -216,9 +216,19 @@
           "value": "https://wa.me/5565981715855"
         },
         {
+          "icon": "location",
+          "label": "Onde Estamos",
+          "value": "https://maps.app.goo.gl/VScvU519WqWA7HjZA"
+        },
+        {
           "icon": "instagram",
           "label": "instagram",
           "value": "https://www.instagram.com/caprichopresentesnm/"
+        },
+        {
+          "icon": "facebook",
+          "label": "facebook",
+          "value": "https://www.facebook.com/presentescapricho/"
         }
       ]
     },
