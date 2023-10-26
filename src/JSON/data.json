@@ -216,9 +216,19 @@
           "value": "https://wa.me/5565981715855"
         },
         {
+          "icon": "location",
+          "label": "Onde Estamos",
+          "value": "https://maps.app.goo.gl/VScvU519WqWA7HjZA"
+        },
+        {
           "icon": "instagram",
           "label": "instagram",
           "value": "https://www.instagram.com/caprichopresentesnm/"
+        },
+        {
+          "icon": "facebook",
+          "label": "facebook",
+          "value": "https://www.facebook.com/presentescapricho/"
         }
       ]
     },
@@ -313,38 +323,13 @@
       },
       "bio": "Agência de Marketing e Tecnologia. Transformando idéias em sucesso online. Veja nossos serviços:",
       "image": "/images/gibify-marketing-e-tecnologia-image.png",
-      "username": "mktech",
+      "username": "others",
       "color": "#8C52FF",
       "links": [
         {
           "icon": "mkt",
           "label": "social media",
           "value": "https://wa.me/5547984031398/?text=Olá!%20Eu%20tenho%20interesse,%20serviços%20para%20Social%20Media."
-        },
-        {
-          "icon": "link",
-          "label": "link na bio",
-          "value": "https://wa.me/5547984031398/?text=Olá!%20Eu%20tenho%20interesse,%20serviços%20para%20Link%20na%20Bio."
-        },
-        {
-          "icon": "querystats",
-          "label": "Google Ads",
-          "value": "https://wa.me/5547984031398/?text=Olá!%20Eu%20tenho%20interesse,%20serviços%20para%20Google%20Ads."
-        },
-        {
-          "icon": "adsclick",
-          "label": "Meta Ads",
-          "value": "https://wa.me/5547984031398/?text=Olá!%20Eu%20tenho%20interesse,%20serviços%20para%20Meta%20Ads."
-        },
-        {
-          "icon": "sell",
-          "label": "E-commerce",
-          "value": "https://wa.me/5547984031398/?text=Olá!%20Eu%20tenho%20interesse,%20serviços%20para%20E-commerce."
-        },
-        {
-          "icon": "website",
-          "label": "Nosso Website",
-          "value": "https://gibify.com.br"
         }
       ]
     },

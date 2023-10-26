@@ -1,6 +1,6 @@
 import { ThemeSwitcher } from '../ThemeSwitcher'
-import LogoSquare from '../logo-square'
 import Share from '../share'
+import { LogoText } from '../icons/logo-text'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -13,19 +13,11 @@ export default function Footer() {
         <Share />
       </div>
 
-      <div className="mt-5">
-        <div className="flex items-center justify-center text-sm font-medium uppercase gap-2 my-4">
-          <LogoSquare size="sm" />
-          <a href="https://gibify.link">
-            gibify<span className="text-green-500 ml-1">.link</span>
-          </a>
-        </div>
+      <div className="flex flex-col justify-center items-center my-4">
         <p> &copy; {copyrightDate} Todos os direitos reservados.</p>
-        <p className="mb-4 mt-2">
-          <a href="#" className="font-semibold">
-            Gibify - Marketing e Tecnologia
-          </a>
-        </p>
+        <a href="https://gibify.link" className="font-semibold mb-4 mt-2">
+          <LogoText />
+        </a>
       </div>
     </footer>
   )
