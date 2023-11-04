@@ -316,20 +316,30 @@
     },
     {
       "id": "12",
-      "name": "Gibify - Marketing & Tecnologia",
+      "name": "Mylenna Xavier Makeup",
       "metadata": {
-        "title": "Gibify | Marketing & Tecnologia",
-        "description": "Transformando idéias em sucesso online."
+        "title": "Mylenna Xavier | Makeup & Designer",
+        "description": "Elevando sua auto estima através da maquiagem e sobrancelhas."
       },
-      "bio": "Agência de Marketing e Tecnologia. Transformando idéias em sucesso online. Veja nossos serviços:",
-      "image": "/images/gibify-marketing-e-tecnologia-image.png",
-      "username": "others",
-      "color": "#8C52FF",
+      "bio": "Elevando sua auto estima através da maquiagem e sobrancelhas.",
+      "image": "/images/mylenna-xavier-image.png",
+      "username": "mylennaxavier",
+      "color": "#D2B070",
       "links": [
         {
-          "icon": "mkt",
-          "label": "social media",
-          "value": "https://wa.me/5547984031398/?text=Olá!%20Eu%20tenho%20interesse,%20serviços%20para%20Social%20Media."
+          "icon": "about",
+          "label": "sobre mim",
+          "value": "https://gibify.app/mylennaxavier"
+        },
+        {
+          "icon": "whatsapp",
+          "label": "whatsapp",
+          "value": "https://wa.me/5565992382416"
+        },
+        {
+          "icon": "instagram",
+          "label": "instagram",
+          "value": "https://www.instagram.com/mylenna_xavier_makeup/"
         }
       ]
     },
