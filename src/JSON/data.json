@@ -340,6 +340,11 @@
           "icon": "instagram",
           "label": "instagram",
           "value": "https://www.instagram.com/mylenna_xavier_makeup/"
+        },
+        {
+          "icon": "location",
+          "label": "Onde Estamos",
+          "value": "https://maps.app.goo.gl/FgSkXrtsH1pnEYCK7?g_st=iw"
         }
       ]
     },
