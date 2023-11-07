@@ -543,6 +543,30 @@
       ]
     },
     {
+      "id": "19",
+      "name": "Studio Rah",
+      "metadata": {
+        "title": "Studio Rah - Salão de beleza e estética",
+        "description": "Cabeleireiro | Unha | Depilação | Extensão de Cílios | Micro pigmentação | Designer"
+      },
+      "bio": "Cabeleireiro | Unha | Depilação | Extensão de Cílios | Micro pigmentação | Designer",
+      "image": "/images/studiorah-image.png",
+      "username": "studiorah",
+      "color": "#CD9B2A",
+      "links": [
+        {
+          "icon": "whatsapp",
+          "label": "whatsapp",
+          "value": "https://wa.me/47996595182"
+        },
+        {
+          "icon": "instagram",
+          "label": "instagram",
+          "value": "https://www.instagram.com/salaodebelezarah/"
+        }
+      ]
+    },
+    {
       "id": "98",
       "name": "Meyqscilaine Gonçalves",
       "metadata": {
