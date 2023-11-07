@@ -547,9 +547,9 @@
       "name": "Studio Rah",
       "metadata": {
         "title": "Studio Rah - Salão de beleza e estética",
-        "description": "Cabeleireiro/Unha/Depilação/Extensão de Cílios/Micro pigmentação/ Designer"
+        "description": "Cabeleireiro | Unha | Depilação | Extensão de Cílios | Micro pigmentação | Designer"
       },
-      "bio": "Cabeleireiro/Unha/Depilação/Extensão de Cílios/Micro pigmentação/ Designer",
+      "bio": "Cabeleireiro | Unha | Depilação | Extensão de Cílios | Micro pigmentação | Designer",
       "image": "/images/studiorah-image.png",
       "username": "studiorah",
       "color": "#CD9B2A",
@@ -560,24 +560,9 @@
           "value": "https://wa.me/47996595182"
         },
         {
-          "icon": "location",
-          "label": "Onde Estamos",
-          "value": "https://maps.app.goo.gl/hw437Q439ibUUdJP9"
-        },
-        {
           "icon": "instagram",
           "label": "instagram",
           "value": "https://www.instagram.com/salaodebelezarah/"
-        },
-        {
-          "icon": "facebook",
-          "label": "facebook",
-          "value": "https://www.facebook.com/grupoinversol/"
-        },
-        {
-          "icon": "website",
-          "label": "Website",
-          "value": "https://inversolenergiasolar.com.br/"
         }
       ]
     },
