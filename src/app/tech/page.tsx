@@ -9,32 +9,27 @@ const links = [
   {
     icon: 'mkt',
     label: 'social media',
-    value:
-      'https://wa.me/5547984031398/?text=Olá!%20Eu%20tenho%20interesse,%20serviços%20para%20Social%20Media.'
+    value: 'https://wa.me/message/YVLQXFZAHELVF1'
   },
   {
     icon: 'link',
     label: 'link na bio',
-    value:
-      'https://wa.me/5547984031398/?text=Olá!%20Eu%20tenho%20interesse,%20serviços%20para%20Link%20na%20Bio.'
+    value: 'https://gibify.link'
   },
   {
     icon: 'querystats',
     label: 'Google Ads',
-    value:
-      'https://wa.me/5547984031398/?text=Olá!%20Eu%20tenho%20interesse,%20serviços%20para%20Google%20Ads.'
+    value: 'https://wa.me/message/YVLQXFZAHELVF1'
   },
   {
     icon: 'adsclick',
     label: 'Meta Ads',
-    value:
-      'https://wa.me/5547984031398/?text=Olá!%20Eu%20tenho%20interesse,%20serviços%20para%20Meta%20Ads.'
+    value: 'https://wa.me/message/YVLQXFZAHELVF1'
   },
   {
     icon: 'sell',
     label: 'E-commerce',
-    value:
-      'https://wa.me/5547984031398/?text=Olá!%20Eu%20tenho%20interesse,%20serviços%20para%20E-commerce.'
+    value: 'https://wa.me/message/YVLQXFZAHELVF1'
   },
   {
     icon: 'website',
