@@ -563,6 +563,11 @@
           "icon": "instagram",
           "label": "instagram",
           "value": "https://www.instagram.com/salaodebelezarah/"
+        },
+        {
+          "icon": "location",
+          "label": "Onde Estamos",
+          "value": "https://maps.app.goo.gl/9TfJf5LUdTLNQxoy7"
         }
       ]
     },
