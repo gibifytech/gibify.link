@@ -603,7 +603,7 @@
         "description": "Qualquer um pode escrever um código que o computador entenda. Bons programadores escrevem códigos que humanos entendam."
       },
       "bio": "Qualquer um pode escrever um código que o computador entenda. Bons programadores escrevem códigos que humanos entendam.",
-      "image": "",
+      "image": "/images/alexandre-brazil.jpg",
       "username": "alexandre-brasil",
       "color": "#4285F4",
       "links": [
@@ -621,6 +621,11 @@
           "icon": "whatsapp",
           "label": "whatsapp",
           "value": "https://wa.me/5565992792383"
+        },
+        {
+          "icon": "website",
+          "label": "Website",
+          "value": "https://alexandre-brazil.netlify.app/"
         }
       ]
     },
