@@ -584,11 +584,6 @@
       "color": "#8C52FF",
       "links": [
         {
-          "icon": "instagram",
-          "label": "linkedin",
-          "value": "https://www.linkedin.com/in/gibifydev/"
-        },
-        {
           "icon": "whatsapp",
           "label": "whatsapp",
           "value": "https://wa.me/5565992792383"
