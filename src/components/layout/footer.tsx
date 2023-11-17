@@ -1,6 +1,13 @@
 import { ThemeSwitcher } from '../ThemeSwitcher'
 import Share from '../share'
-import { LogoText } from '../icons/logo-text'
+import LogoSquare from '../logo-square'
+import { Roboto } from 'next/font/google'
+
+const roboto = Roboto({
+  weight: '700',
+  subsets: ['latin'],
+  display: 'swap'
+})
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -15,8 +22,12 @@ export default function Footer() {
 
       <div className="flex flex-col justify-center items-center my-4">
         <p> &copy; {copyrightDate} Todos os direitos reservados.</p>
-        <a href="https://gibify.link" className="font-semibold mb-4 mt-2">
-          <LogoText />
+        <a
+          href="https://gibify.link"
+          className="flex items-center text-sm font-bold uppercase gap-2 mb-4 mt-2"
+        >
+          <LogoSquare size="sm" />
+          <p className={roboto.className}>gibify link</p>
         </a>
       </div>
     </footer>

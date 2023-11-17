@@ -7,8 +7,8 @@ export default function LogoSquare({ size }: { size?: 'sm' | undefined }) {
       className={clsx(
         'flex flex-none items-center justify-center border border-neutral-200 bg-white dark:border-neutral-700 dark:bg-black',
         {
-          'h-[50px] w-[50px] rounded-xl': !size,
-          'h-[40px] w-[40px] rounded-lg': size === 'sm'
+          'h-[50px] w-[50px] rounded-lg': !size,
+          'h-[40px] w-[40px] rounded-md': size === 'sm'
         }
       )}
     >

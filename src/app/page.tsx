@@ -12,16 +12,14 @@ export async function generateMetadata(): Promise<Metadata> {
       title: 'Home | Gibify Link',
       description: 'Simplificando a maneira de compartilhar seus links na internet.',
       url: 'https://gibify.link',
-      siteName: 'Gibify Link',
-      images: ['/images/gibify-link-logo.png']
+      siteName: 'Gibify Link'
     },
     twitter: {
       card: 'summary_large_image',
       creator: '@gibifydev',
       title: 'Home | Gibify Link',
       description: 'Simplificando a maneira de compartilhar seus links na internet.',
-      site: 'https://gibify.link',
-      images: '/images/gibify-link-logo.png'
+      site: 'https://gibify.link'
     }
   }
 }
