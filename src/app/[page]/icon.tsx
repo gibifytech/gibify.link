@@ -11,7 +11,7 @@ export const size = {
 }
 
 export default function Icon({ params }: { params: { page: string } }) {
-  const page = json.data?.find((user) => params.page && user.username === params.page)
+  const page = json.users?.find((user) => params.page && user.username === params.page)
   if (!page) return notFound()
 
   const name = page.name.split(' ')

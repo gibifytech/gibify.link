@@ -12,7 +12,7 @@ export async function generateMetadata({
 }: {
   params: { page: string }
 }): Promise<Metadata> {
-  const page = json.data?.find((user) => params.page && user.username === params.page)
+  const page = json.users?.find((user) => params.page && user.username === params.page)
   if (!page) return notFound()
 
   return {
@@ -38,7 +38,7 @@ export async function generateMetadata({
 }
 
 export default async function Page({ params }: { params: { page: string } }) {
-  const page = json.data?.find((user) => params.page && user.username === params.page)
+  const page = json.users?.find((user) => params.page && user.username === params.page)
   if (!page) notFound()
 
   return (
