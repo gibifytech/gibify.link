@@ -5,6 +5,7 @@ import Header from '@/components/layout/header'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { ThemeProvider } from './theme-provider'
+import { env } from '@/env'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -12,11 +13,14 @@ const inter = Inter({
   variable: '--font-inter'
 })
 
+const baseUrl = env.NEXT_PUBLIC_BASE_URL
+
 export const metadata: Metadata = {
   robots: {
     follow: true,
     index: true
   },
+  metadataBase: new URL(baseUrl),
   verification: {
     google: 'NZ-zRsj3eU2EdmeG8llgzrBIHSozkP7W9illfOmVr0M',
     other: {
@@ -27,7 +31,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={inter.variable}>
+    <html lang="pt" className={inter.variable}>
       <Script
         id="fb-pixel"
         strategy="afterInteractive"

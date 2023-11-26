@@ -5,7 +5,7 @@ type LinksProps = {
   links: Link[]
   color: string
 }
-export default function Links({ links, color }: LinksProps) {
+export function Links({ links, color }: LinksProps) {
   return (
     <div className="flex flex-col gap-4  max-w-sm w-full text-xs uppercase px-4 md:p-0">
       {links.map((link, index) => (

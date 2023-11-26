@@ -1,14 +1,6 @@
 import Image from 'next/image'
 
-export default function Avatar({
-  image,
-  color,
-  name
-}: {
-  image: string
-  color: string
-  name: string
-}) {
+export function Avatar({ image, color, name }: { image: string; color: string; name: string }) {
   return (
     <div className="flex md:flex-row flex-col gap-4 items-center justify-center mt-8 w-full">
       <Image
