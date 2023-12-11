@@ -1,7 +1,11 @@
 import Carousel from '@/components/carousel'
 import WhtasappIcon from '@/components/icons/whatsapp'
+import { env } from '@/env'
 import { Metadata } from 'next'
+
 export const runtime = 'edge'
+
+const baseUrl = env.NEXT_PUBLIC_BASE_URL
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
@@ -11,7 +15,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: 'website',
       title: 'Home | Gibify Link',
       description: 'Simplificando a maneira de compartilhar seus links na internet.',
-      url: 'https://gibify.link',
+      url: baseUrl,
       siteName: 'Gibify Link'
     },
     twitter: {
@@ -19,7 +23,7 @@ export async function generateMetadata(): Promise<Metadata> {
       creator: '@gibifydev',
       title: 'Home | Gibify Link',
       description: 'Simplificando a maneira de compartilhar seus links na internet.',
-      site: 'https://gibify.link'
+      site: baseUrl
     }
   }
 }

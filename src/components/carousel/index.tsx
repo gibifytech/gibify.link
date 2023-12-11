@@ -1,15 +1,10 @@
+import { getUsers } from '@/services/get-users'
 import Image from 'next/image'
 import Link from 'next/link'
-import { api } from '@/services/api'
-import { User } from '@/types/user'
 
-async function getUsers(): Promise<User[]> {
-  const response = await api('/users')
-  return await response.json()
-}
 export default async function Carousel() {
   const users = await getUsers()
-  if (!users.length) return
+  if (!users?.length) return
 
   return (
     <div className="w-full  items-center pt-1 mt-6 mb-4 px-10">
