@@ -1,5 +1,5 @@
 {
-  "data": [
+  "users": [
     {
       "id": "01",
       "name": "Vanúbia Xavier",
@@ -18,6 +18,11 @@
           "value": "https://wa.me/5565992700066"
         },
         {
+          "icon": "facebook",
+          "label": "facebook",
+          "value": "https://www.facebook.com/vanubia.xavier.90"
+        },
+        {
           "icon": "instagram",
           "label": "instagram",
           "value": "https://www.instagram.com/vanubia_xavier_/"
@@ -26,6 +31,11 @@
           "icon": "about",
           "label": "sobre mim",
           "value": "https://gibify.app/vanubia-xavier"
+        },
+        {
+          "icon": "location",
+          "label": "Onde Estamos",
+          "value": "https://maps.app.goo.gl/wXfAzy8AjK3fni2AA"
         }
       ]
     },

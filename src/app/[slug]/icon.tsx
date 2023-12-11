@@ -1,8 +1,7 @@
 import { ImageResponse } from 'next/server'
 import { notFound } from 'next/navigation'
-import json from '../../JSON/data.json'
+import { getUser } from '@/services/get-user'
 
-export const runtime = 'edge'
 export const contentType = 'image/png'
 
 export const size = {
@@ -10,11 +9,11 @@ export const size = {
   height: 32
 }
 
-export default function Icon({ params }: { params: { page: string } }) {
-  const page = json.data?.find((user) => params.page && user.username === params.page)
-  if (!page) return notFound()
+export default async function Icon({ params }: { params: { slug: string } }) {
+  const user = await getUser(params.slug)
+  if (!user) return notFound()
 
-  const name = page.name.split(' ')
+  const name = user.name.split(' ')
   return new ImageResponse(
     (
       <div

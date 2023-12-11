@@ -50,7 +50,7 @@ export default async function Page() {
           priority
           className="w-20 h-20 p-1 rounded-full ring-2 ring-black dark:ring-white"
         />
-        <span className={`${roboto.className} text-black font-semibold text-lg`}>
+        <span className={`${roboto.className} text-black dark:text-white font-semibold text-lg`}>
           Gibify - Marketing & Tecnologia
         </span>
       </div>
