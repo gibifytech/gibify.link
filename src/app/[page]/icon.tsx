@@ -1,8 +1,7 @@
 import { ImageResponse } from 'next/server'
 import { notFound } from 'next/navigation'
-import json from '../../JSON/data.json'
+import json from '@/data/data.json'
 
-export const runtime = 'edge'
 export const contentType = 'image/png'
 
 export const size = {
@@ -15,6 +14,7 @@ export default function Icon({ params }: { params: { page: string } }) {
   if (!page) return notFound()
 
   const name = page.name.split(' ')
+
   return new ImageResponse(
     (
       <div

@@ -1,7 +1,6 @@
 import Carousel from '@/components/carousel'
 import WhtasappIcon from '@/components/icons/whatsapp'
 import { Metadata } from 'next'
-export const runtime = 'edge'
 
 export async function generateMetadata(): Promise<Metadata> {
   return {

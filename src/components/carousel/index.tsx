@@ -1,8 +1,9 @@
+import json from '@/data/data.json'
 import Image from 'next/image'
 import Link from 'next/link'
-import json from '../../JSON/data.json'
 
 export default function Carousel() {
+  if (!json.data?.length) return
   return (
     <div className="w-full  items-center pt-1 mt-6 mb-4 px-10">
       <h2 className="max-w-5xl mx-auto my-10 text-xl font-semibold">
