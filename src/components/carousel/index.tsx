@@ -1,9 +1,9 @@
-import { getUsers } from '@/services/get-users'
+import json from '@/data/data.json'
 import Image from 'next/image'
 import Link from 'next/link'
 
 export default async function Carousel() {
-  const users = await getUsers()
+  const users = json.users
   if (!users?.length) return
 
   return (

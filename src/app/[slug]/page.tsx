@@ -3,15 +3,14 @@ import { Bio } from '@/components/bio'
 import { Links } from '@/components/links'
 import { notFound } from 'next/navigation'
 import { Metadata } from 'next'
-import { getUser } from '../../services/get-user'
+import json from '@/data/data.json'
 
 export async function generateMetadata({
   params
 }: {
   params: { slug: string }
 }): Promise<Metadata> {
-  const user = await getUser(params.slug)
-
+  const user = json.users.find((user) => user.username === params.slug)
   if (!user) return notFound()
 
   return {
@@ -37,7 +36,7 @@ export async function generateMetadata({
 }
 
 export default async function Page({ params }: { params: { slug: string } }) {
-  const user = await getUser(params.slug)
+  const user = json.users.find((user) => user.username === params.slug)
   if (!user) notFound()
 
   return (

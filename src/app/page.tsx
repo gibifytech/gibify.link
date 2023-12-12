@@ -3,8 +3,6 @@ import WhtasappIcon from '@/components/icons/whatsapp'
 import { env } from '@/env'
 import { Metadata } from 'next'
 
-export const runtime = 'edge'
-
 const baseUrl = env.NEXT_PUBLIC_BASE_URL
 
 export async function generateMetadata(): Promise<Metadata> {
