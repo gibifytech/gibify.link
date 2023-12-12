@@ -13,6 +13,7 @@ import SellIcon from './sell'
 import MktIcon from './mkt'
 import FacebookIcon from './facebook'
 import CalendarIcon from './calendar'
+import EmailIcon from './email'
 
 interface IconsProps {
   icon: string
@@ -47,6 +48,8 @@ export default function Icons({ icon }: IconsProps) {
       return <CalendarIcon />
     case 'mkt':
       return <MktIcon />
+    case 'email':
+      return <EmailIcon />
     default:
       return <LinkIcon />
   }
