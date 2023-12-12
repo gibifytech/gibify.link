@@ -582,6 +582,45 @@
       ]
     },
     {
+      "id": "20",
+      "name": "Inversol Mato Grosso",
+      "metadata": {
+        "title": "Inversol | Mato Grosso",
+        "description": "Transformando a luz do sol em energia para um futuro mais sustentável. Seja parte da revolução solar conosco."
+      },
+      "bio": "Transformando a luz do sol em energia para um futuro mais sustentável. Seja parte da revolução solar conosco.",
+      "image": "/images/inversol-matogrosso-image.jpeg",
+      "username": "inversol-matogrosso",
+      "color": "#CD9B2A",
+      "links": [
+        {
+          "icon": "whatsapp",
+          "label": "Orçamento",
+          "value": "https://wa.me/47920025241"
+        },
+        {
+          "icon": "instagram",
+          "label": "instagram",
+          "value": "https://www.instagram.com/salaodebelezarah/"
+        },
+        {
+          "icon": "email",
+          "label": "Email",
+          "value": "mailto:Inversol.energiasolar2019@gmail.com"
+        },
+        {
+          "icon": "website",
+          "label": "Website",
+          "value": "https://www.inversolenergiasolar.com.br"
+        },
+        {
+          "icon": "location",
+          "label": "Onde Estamos",
+          "value": "https://maps.app.goo.gl/ZzKqpW67dxCxJPEV8"
+        }
+      ]
+    },
+    {
       "id": "98",
       "name": "Meyqscilaine Gonçalves",
       "metadata": {
