@@ -1,4 +1,4 @@
-import json from '../../JSON/data.json'
+import json from '@/data/data.json'
 import { notFound } from 'next/navigation'
 import { Metadata } from 'next'
 import Avatar from '@/components/avatar'
