@@ -2,19 +2,17 @@ import json from '@/data/data.json'
 import Image from 'next/image'
 import Link from 'next/link'
 
-export default async function Carousel() {
-  const users = json.users
-  if (!users?.length) return
-
+export default function Carousel() {
+  if (!json.data?.length) return
   return (
     <div className="w-full  items-center pt-1 mt-6 mb-4 px-10">
       <h2 className="max-w-5xl mx-auto my-10 text-xl font-semibold">
-        Já são <i className="text-green-500">{users.length}</i> contas que estão usando a{' '}
+        Já são <i className="text-green-500">{json.data.length}</i> contas que estão usando a{' '}
         <i className="text-green-500">gibify.link</i>
       </h2>
       <ul className="flex animate-carousel gap-4">
-        {users.length
-          ? users.map((user) => (
+        {json.data.length
+          ? json.data.map((user) => (
               <Link
                 key={user.id}
                 href={`https://gibify.link/${user.username}`}

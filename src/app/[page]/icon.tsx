@@ -9,11 +9,12 @@ export const size = {
   height: 32
 }
 
-export default function Icon({ params }: { params: { slug: string } }) {
-  const user = json.users.find((user) => user.username === params.slug)
-  if (!user) return notFound()
+export default function Icon({ params }: { params: { page: string } }) {
+  const page = json.data?.find((user) => params.page && user.username === params.page)
+  if (!page) return notFound()
 
-  const name = user.name.split(' ')
+  const name = page.name.split(' ')
+
   return new ImageResponse(
     (
       <div
