@@ -23,9 +23,19 @@
           "value": "https://www.instagram.com/vanubia_xavier_/"
         },
         {
+          "icon": "facebook",
+          "label": "facebook",
+          "value": "https://www.facebook.com/vanubia.xavier.90"
+        },
+        {
           "icon": "about",
           "label": "sobre mim",
           "value": "https://gibify.app/vanubia-xavier"
+        },
+        {
+          "icon": "location",
+          "label": "Onde Estamos",
+          "value": "https://maps.app.goo.gl/JxSp351bse6q5pVa7"
         }
       ]
     },
