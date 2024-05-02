@@ -640,6 +640,74 @@
       ]
     },
     {
+      "id": "300",
+      "name": "Inversol Rondonópolis - Energia Solar",
+      "metadata": {
+        "title": "Inversol Rondonópolis | Energia Solar",
+        "description": "Gerando energia limpa e sustentável. Transformando o Sol em Economia."
+      },
+      "bio": "Inversol - Energia Solar. Gerando energia limpa e sustentável. Invertendo o Sol em Economia.",
+      "image": "/images/inversol-image.png",
+      "username": "inversol-rondonopolis",
+      "color": "#325387",
+      "links": [
+        {
+          "icon": "whatsapp",
+          "label": "whatsapp",
+          "value": "https://wa.me/5566996627787"
+        },
+        {
+          "icon": "location",
+          "label": "Onde Estamos",
+          "value": "https://maps.google.com/?q=-16.436480,-54.664650"
+        },
+        {
+          "icon": "instagram",
+          "label": "instagram",
+          "value": "https://www.instagram.com/inversolrondonopolis?igsh=MTQwb3N1ZTBmczA3aw=="
+        },
+        {
+          "icon": "facebook",
+          "label": "facebook",
+          "value": "https://www.facebook.com/inversol.rondonopolis?mibextid=ZbWKwL"
+        },
+        {
+          "icon": "website",
+          "label": "Website",
+          "value": "https://inversolenergiasolar.com.br/"
+        }
+      ]
+    },
+    {
+      "id": "301",
+      "name": "Enersol - Energia Solar",
+      "metadata": {
+        "title": "Enersol | Energia Solar",
+        "description": "Gerando energia limpa e sustentável. Transformando o Sol em Economia."
+      },
+      "bio": "Enersol - Energia Solar. Gerando energia limpa e sustentável. Invertendo o Sol em Economia.",
+      "image": "/images/enersol.png",
+      "username": "enersol",
+      "color": "#325387",
+      "links": [
+        {
+          "icon": "whatsapp",
+          "label": "whatsapp",
+          "value": "https://wa.me/5565996726418"
+        },
+        {
+          "icon": "location",
+          "label": "Onde Estamos",
+          "value": "https://maps.google.com/?q=-16.436480,-54.664650"
+        },
+        {
+          "icon": "instagram",
+          "label": "instagram",
+          "value": "https://www.instagram.com/enersol_energia.solar?igsh=MTdpZWNjMXNpeDkyZA=="
+        }
+      ]
+    },
+    {
       "id": "99",
       "name": "Alexandre Brasil",
       "metadata": {
@@ -669,7 +737,7 @@
         {
           "icon": "website",
           "label": "Website",
-          "value": "https://alexandre-brazil.netlify.app/"
+          "value": "https://alexandre.agency"
         }
       ]
     },
