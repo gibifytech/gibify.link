@@ -1,3 +1,4 @@
+import json from '@/data/data.json'
 import Carousel from '@/components/carousel'
 import WhtasappIcon from '@/components/icons/whatsapp'
 import { Metadata } from 'next'
@@ -54,7 +55,7 @@ export default function HomePage() {
               Fale com um dos nossos consultores e crie seu link personalizado.
             </p>
             <a
-              href="https://wa.me/5565993562754?text=Tenho%20interesse%20pelo%20link%20na%20bio%20no%20Instagram."
+              href="https://wa.me/5548998463847?text=Tenho%20interesse%20pelo%20link%20na%20bio%20no%20Instagram."
               target="_blank"
               rel="noopener noreferrer"
               className="flex max-w-sm mt-4 items-center text-green-500 justify-center gap-2 rounded-3xl border border-green-500 p-2 w-full"
@@ -64,7 +65,11 @@ export default function HomePage() {
             </a>
           </div>
         </div>
-        <Carousel />
+        <h2 className="max-w-5xl mx-auto my-10 text-xl font-semibold px-6 md:px-8">
+          Já são mais de <i className="text-green-500">mil</i> links que estão usando a{' '}
+          <i className="text-green-500">gibify.link</i>
+        </h2>
+        <Carousel data={json.data} />
       </div>
     </>
   )
