@@ -748,25 +748,30 @@
         "title": "Evandro Gibicoski | Web Developer",
         "description": "Apaixonado por desenvolver aplicações web e criar um mundo de conexões através da internet."
       },
-      "bio": "Apaixonado por desenvolver aplicações web e criar um mundo de conexões através da internet.",
+      "bio": "Apaixonado por desenvolver Softwares e criar um mundo de conexões através da internet.",
       "image": "/images/evandro-gibicoski-image.png",
-      "username": "me",
+      "username": "thegibi",
       "color": "#0e8f50",
       "links": [
         {
           "icon": "linkedin",
           "label": "linkedin",
-          "value": "https://www.linkedin.com/in/gibifydev/"
+          "value": "https://www.linkedin.com/in/thegibiofficial/"
         },
         {
           "icon": "github",
           "label": "github",
-          "value": "https://github.com/gibifydev"
+          "value": "https://github.com/thegibi"
         },
         {
           "icon": "whatsapp",
           "label": "whatsapp",
           "value": "https://wa.me/5548998463847"
+        },
+        {
+          "icon": "website",
+          "label": "website",
+          "value": "https://thegibi.dev/"
         }
       ]
     }

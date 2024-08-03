@@ -1,5 +1,3 @@
-import { ThemeSwitcher } from '../ThemeSwitcher'
-import Share from '../share'
 import LogoSquare from '../logo-square'
 import { Roboto } from 'next/font/google'
 
@@ -15,11 +13,6 @@ export default function Footer() {
 
   return (
     <footer className="w-full flex flex-col items-center justify-center border-t border-neutral-200 dark:border-neutral-700 px-4 text-center text-black dark:text-white">
-      <div className="w-full flex items-center justify-center gap-3 border-b border-neutral-200 dark:border-neutral-700 py-4">
-        <ThemeSwitcher />
-        <Share />
-      </div>
-
       <div className="flex flex-col justify-center items-center my-4">
         <p> &copy; {copyrightDate} Todos os direitos reservados.</p>
         <a

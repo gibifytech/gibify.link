@@ -2,6 +2,7 @@
 import { usePathname } from 'next/navigation'
 import LogoSquare from '../logo-square'
 import { Roboto } from 'next/font/google'
+import { ThemeSwitcher } from '../ThemeSwitcher'
 
 const roboto = Roboto({
   weight: '700',
@@ -22,6 +23,7 @@ export default function Header() {
             <LogoSquare size="sm" />
             <p className={roboto.className}>gibify link</p>
           </div>
+          <ThemeSwitcher />
         </header>
       )}
     </>
