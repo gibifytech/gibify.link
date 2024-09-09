@@ -56,7 +56,7 @@ export default function TermsOfService() {
 
       <h3 className="text-xl font-semibold mb-2">7. Alterações nos Termos</h3>
       <p className="mb-4">
-        O [Nome da Empresa] pode modificar estes Termos de Serviço a qualquer momento. Quaisquer
+        O Gibify Link pode modificar estes Termos de Serviço a qualquer momento. Quaisquer
         alterações serão publicadas nesta página, e o uso continuado do serviço após tais alterações
         constitui sua aceitação dos novos termos.
       </p>
