@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import LogoSquare from '../logo-square'
 import { Roboto } from 'next/font/google'
 
@@ -9,12 +10,23 @@ const roboto = Roboto({
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
-  const copyrightDate = 2023 + (currentYear > 2023 ? `-${currentYear}` : '')
 
   return (
     <footer className="w-full flex flex-col items-center justify-center border-t border-neutral-200 dark:border-neutral-700 px-4 text-center text-black dark:text-white">
+      <div className="w-full flex items-center justify-center gap-3 border-b border-neutral-200 dark:border-neutral-700 py-4">
+        <Link
+          href="/terms-of-service"
+          className="text-xs text-gray-950 dark:text-gray-100 underline"
+        >
+          Termos de Serviço
+        </Link>
+        <Link href="/privacy-policy" className="text-xs text-gray-950 dark:text-gray-100 underline">
+          Política de Privacidade
+        </Link>
+      </div>
+
       <div className="flex flex-col justify-center items-center my-4">
-        <p> &copy; {copyrightDate} Todos os direitos reservados.</p>
+        <p> &copy; {currentYear} Todos os direitos reservados.</p>
         <a
           href="https://gibify.link"
           className="flex items-center text-sm font-bold uppercase gap-2 mb-4 mt-2"

@@ -27,9 +27,17 @@ const config = {
         sans: ['var(--font-inter)']
       },
       keyframes: {
-        fadeIn: {
+        'fade-in': {
           from: { opacity: 0 },
           to: { opacity: 1 }
+        },
+        'accordion-down': {
+          from: { height: '0' },
+          to: { height: 'var(--radix-accordion-content-height)' }
+        },
+        'accordion-up': {
+          from: { height: 'var(--radix-accordion-content-height)' },
+          to: { height: '0' }
         },
         marquee: {
           '0%': { transform: 'translateX(0%)' },
@@ -42,9 +50,11 @@ const config = {
         }
       },
       animation: {
-        fadeIn: 'fadeIn .3s ease-in-out',
+        'fade-in': 'fadeIn .3s ease-in-out',
         carousel: 'marquee 60s linear infinite',
-        blink: 'blink 1.4s both infinite'
+        blink: 'blink 1.4s both infinite',
+        'accordion-down': 'accordion-down 0.2s ease-out',
+        'accordion-up': 'accordion-up 0.2s ease-out'
       }
     }
   },
