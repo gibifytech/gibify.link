@@ -14,10 +14,13 @@ export default function Footer() {
   return (
     <footer className="w-full flex flex-col items-center justify-center border-t border-neutral-200 dark:border-neutral-700 px-4 text-center text-black dark:text-white">
       <div className="w-full flex items-center justify-center gap-3 border-b border-neutral-200 dark:border-neutral-700 py-4">
-        <Link href="/terms-of-service" className="text-xs text-gray-950 underline">
+        <Link
+          href="/terms-of-service"
+          className="text-xs text-gray-950 dark:text-gray-100 underline"
+        >
           Termos de Serviço
         </Link>
-        <Link href="/privacy-policy" className="text-xs text-gray-950 underline">
+        <Link href="/privacy-policy" className="text-xs text-gray-950 dark:text-gray-100 underline">
           Política de Privacidade
         </Link>
       </div>
